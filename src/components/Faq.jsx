@@ -34,7 +34,7 @@ const Faq = () => {
                             <p className="quality">ARCHITECTURE & CONSTRUCTION</p>
                         </div>
 
-                        <h2 className="handyman-text fade_down">Frequently asked questions</h2>
+                        <h2 className="alliedconstruction-text fade_down">Frequently asked questions</h2>
 
                         <p className="fusce fade_down">
                             Get clear answers to common questions about layout planning, architectural design,

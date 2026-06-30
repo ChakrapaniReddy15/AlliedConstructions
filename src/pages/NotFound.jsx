@@ -24,7 +24,7 @@ const NotFound = () => {
                     <div className="quality-main ourProcess fade_down">
                         <p className="quality">404 ERROR</p>
                     </div>
-                    <h2 className="handyman-text legal fade_down">Oops ! The Page Not Found.</h2>
+                    <h2 className="alliedconstruction-text legal fade_down">Oops ! The Page Not Found.</h2>
                     <p className="fusce iaculis fade_down">We apologize for the inconvenience. You can use our search bar to find
                         what you're looking for, or contact us for further assistance.
                     </p>

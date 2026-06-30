@@ -1,0 +1,103 @@
+import EstimateImg1 from '../assets/images/home-page/estimate-img1.jpg';
+import EstimateImg2 from '../assets/images/home-page/estimate-img2.jpg';
+import EstimateImg3 from '../assets/images/home-page/estimate-img3.jpg';
+import ProjectHeader from '../assets/images/project-page/header-img.jpg';
+import ProjectDetailImg from '../assets/images/project-page/singleProject-img.jpg';
+import ProjectDetailImg3 from '../assets/images/project-page/singleProject-img3.jpg';
+
+export const projects = [
+    {
+        slug: 'plumbing-utility-upgrade',
+        title: 'Plumbing and Utility Upgrade',
+        category: 'Plumbing',
+        location: 'Hyderabad, Telangana',
+        status: 'Completed',
+        duration: 'Site-based schedule',
+        image: EstimateImg2,
+        banner: ProjectHeader,
+        gallery: [EstimateImg2, ProjectDetailImg, ProjectDetailImg3],
+        summary: 'Water-line, drainage, fixture, and utility coordination work planned for dependable daily use.',
+        overview: 'This project focused on improving plumbing routes, fixture readiness, and service utility access while keeping the finish practical for long-term maintenance.',
+        scope: ['Water supply and drainage coordination', 'Fixture connection planning', 'Utility access checks', 'Leak-prevention review', 'Final service-readiness inspection'],
+        outcome: 'The completed work improved service reliability, reduced future maintenance difficulty, and prepared the space for clean handover.',
+    },
+    {
+        slug: 'interior-ac-coordination',
+        title: 'Interior and AC Coordination',
+        category: 'Interior Services',
+        location: 'Hyderabad, Telangana',
+        status: 'Completed',
+        duration: 'Phased execution',
+        image: EstimateImg1,
+        banner: ProjectHeader,
+        gallery: [EstimateImg1, ProjectDetailImg3, ProjectDetailImg],
+        summary: 'Interior finishing and air-conditioning coordination for a more comfortable residential space.',
+        overview: 'The work aligned AC points, indoor and outdoor unit placement, service access, and interior finishing so the final room layout remained neat and usable.',
+        scope: ['AC point placement review', 'Drainage and copper-line routing', 'Interior finish coordination', 'Service access planning', 'Final cooling and finish checks'],
+        outcome: 'The space was handed over with cleaner AC integration, better service access, and fewer visible routing conflicts.',
+    },
+    {
+        slug: 'residential-finishing-service-planning',
+        title: 'Residential Finishing and Service Planning',
+        category: 'Residential',
+        location: 'Hyderabad, Telangana',
+        status: 'Completed',
+        duration: 'Coordinated handover',
+        image: EstimateImg1,
+        banner: ProjectHeader,
+        gallery: [EstimateImg1, EstimateImg3, ProjectDetailImg],
+        summary: 'Residential finishing work coordinated with electrical, plumbing, painting, and handover requirements.',
+        overview: 'This project brought multiple finishing services together so the space could move from active work to practical occupancy without scattered follow-up tasks.',
+        scope: ['Finishing sequence planning', 'Electrical and plumbing coordination', 'Surface preparation checks', 'Painting and touch-up support', 'Final handover review'],
+        outcome: 'The final handover was cleaner, more organized, and ready for everyday use.',
+    },
+    {
+        slug: 'repair-renovation-coordination',
+        title: 'Repair and Renovation Coordination',
+        category: 'Renovation',
+        location: 'Hyderabad, Telangana',
+        status: 'Completed',
+        duration: 'Scope-based schedule',
+        image: EstimateImg2,
+        banner: ProjectHeader,
+        gallery: [EstimateImg2, EstimateImg1, ProjectDetailImg3],
+        summary: 'Repair and renovation support covering practical upgrades, service fixes, and finish correction.',
+        overview: 'The project addressed existing-site issues through coordinated repair planning, trade sequencing, and final finish improvement.',
+        scope: ['Site condition review', 'Repair and upgrade planning', 'Trade coordination', 'Finish correction', 'Quality and usability checks'],
+        outcome: 'The upgraded areas became more functional, easier to maintain, and visually cleaner after completion.',
+    },
+    {
+        slug: 'roofing-waterproofing-execution',
+        title: 'Roofing and Waterproofing Execution',
+        category: 'Roofing',
+        location: 'Hyderabad, Telangana',
+        status: 'Completed',
+        duration: 'Weather-aware execution',
+        image: EstimateImg3,
+        banner: ProjectHeader,
+        gallery: [EstimateImg3, ProjectDetailImg, EstimateImg2],
+        summary: 'Roofing and waterproofing work planned around leakage control, drainage, and building protection.',
+        overview: 'This project focused on improving the roof area through practical inspection, waterproofing coordination, drainage review, and protective finishing.',
+        scope: ['Roof condition inspection', 'Waterproofing layer coordination', 'Drainage slope review', 'Outlet and leakage checks', 'Protective finish planning'],
+        outcome: 'The completed work strengthened the roof area against water-related issues and improved long-term protection.',
+    },
+    {
+        slug: 'construction-finishing-handover',
+        title: 'Construction Finishing and Handover',
+        category: 'Construction',
+        location: 'Hyderabad, Telangana',
+        status: 'Completed',
+        duration: 'Final-stage execution',
+        image: EstimateImg1,
+        banner: ProjectHeader,
+        gallery: [EstimateImg1, ProjectDetailImg3, EstimateImg3],
+        summary: 'Final construction finishing support with practical quality checks before project handover.',
+        overview: 'The work covered finishing coordination, final checks, cleaning readiness, and correction of small details before the client-facing handover stage.',
+        scope: ['Finish review and correction', 'Service coordination checks', 'Surface and edge touch-ups', 'Cleaning readiness support', 'Final handover checklist'],
+        outcome: 'The project reached a more polished handover state with clearer quality control and fewer loose ends.',
+    },
+];
+
+export const featuredProjects = projects.slice(0, 3);
+
+export const getProjectBySlug = (slug) => projects.find((project) => project.slug === slug);

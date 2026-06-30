@@ -1,8 +1,6 @@
 /*------------------------------------------------------------------
-Project: Handyman
-Author: The_Krishna
-Last change: 18/09/2025
-Primary use:
+Project: Allied Constructions
+Primary use: Construction services website
 ------------------------------------------------------------------ */
 /*-----------------------[Table of contents]------------------------
 1.Default CSS
@@ -19,7 +17,7 @@ Primary use:
 12.Section Seven CSS
 13.Section Eight CSS
 14.Section Nine CSS
-15.Section Blog CSS
+15.Shared Card CSS
 16.Section REPAIR & INSTALLATION CSS
 17.Section Schedule Service CSS
 18.Footer CSS
@@ -27,20 +25,20 @@ Primary use:
 20.About Page CSS
 21.Team Page CSS
 22.Single Team Page CSS
-23.Pricing Page CSS
+23.Package Section CSS
 24.Get Quote Page CSS
-25.our Client Page CSS
+25.Brand Grid CSS
 26.Testimonials Page CSS
 27.FAQ Page CSS
 28.Error Page CSS
-29.Coming Soon Page CSS
+29.Holding Section CSS
 30.Services Page CSS
 31.Single Services Page CSS
 32.Project Page CSS
-33.Project Page Two CSS
-34.Project Page Three CSS
-35.Single Project Page CSS
-36.Blog Page CSS
+33.Project Slider CSS
+34.Project Grid CSS
+35.Project Detail CSS
+36.Article Card CSS
 37.Contact Page CSS
 ------------------------------------------------------------------ */
 /*-----------------------[ 1.Default CSS ]------------------------*/
@@ -125,6 +123,11 @@ button {
     text-transform: uppercase;
     animation: loading 0.7s infinite alternate;
     text-shadow: 2px 2px #029fe1 ;
+}
+.loading-subtitle span {
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: 3px;
 }
 .loading span:nth-child(2) {
     animation-delay: 0.1s;
@@ -480,7 +483,7 @@ button {
     padding: 10px;
     background: var(--2, #f92816);
 }
-.Handyman-main-text {
+.AlliedConstruction-main-text {
     color: var(--5, #FFF);
     font-size: 64px;
     font-weight: 700;
@@ -630,7 +633,7 @@ button {
 .section-two {
     padding: 100px 0;
 }
-.handyman-text {
+.alliedconstruction-text {
     color: var(--3, #000);
     font-size: 48px;
     font-weight: 700;
@@ -739,12 +742,12 @@ button {
     background: var(--3, #000);
     padding: 100px 0;
 }
-.handyman-services-textMain {
+.alliedconstruction-services-textMain {
     display: flex;
     align-items: center;
     gap: 30px;
 }
-.handyman-services {
+.alliedconstruction-services {
     color: #FFF;
 }
 .malesuada {
@@ -1096,7 +1099,7 @@ button {
     background-attachment: fixed;
     padding: 100px 0;
 }
-.premium-handyman {
+.premium-alliedconstruction {
     max-width: 780px;
     color: #FFF;
 }
@@ -1352,7 +1355,7 @@ button {
     align-items: center;
     margin-left: 30px;
 }
-/*-----------------------[ 15.Section Blog CSS ]------------------------*/
+/*-----------------------[ 15.Shared Card CSS ]------------------------*/
 .blog-box {
     display: inline-block;
     position: relative;
@@ -1555,31 +1558,48 @@ footer {
     background: #000;
     padding: 60px 0;
 }
+.footer-row {
+    align-items: flex-start;
+    row-gap: 34px;
+}
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer-brand-logo {
+    width: 190px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 .morbi {
     color: var(--8, #A8A9AD);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     padding-top: 20px;
+    max-width: 280px;
 }
 .useful-link-text {
     color: var(--2, #f92816);
     font-size: 24px;
     font-weight: 600;
     line-height: 36px;
-    margin-top: 40px;
-    margin-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 14px;
 }
 .usefulLinks-List {
     padding-left: 0;
 }
 .usefulLinks-List li {
-    padding: 10px 0;
+    padding: 8px 0;
 }
 .usefulLinks-List li a {
     font-size: 18px;
     font-weight: 600;
     line-height: 24px;
+    display: inline-block;
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
@@ -1603,9 +1623,10 @@ footer {
 }
 .head-phone-white-main {
     display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 15px;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 18px;
+    width: 100%;
 }
 .CallUs {
     color: var(--8, #A8A9AD);
@@ -1618,6 +1639,7 @@ footer {
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
+    word-break: break-word;
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
@@ -1970,7 +1992,7 @@ button.bottom-top-button:hover {
 .diamond-next-btn:hover h4 {
     color: #f92816;
 }
-/*-----------------------[ 23.Pricing Page CSS ]------------------------*/
+/*-----------------------[ 23.Package Section CSS ]------------------------*/
 #pricing-bg {
     background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('../images/pricing-page/header-imgPricing.jpg');
 }
@@ -2146,7 +2168,7 @@ input:checked+.slid-btn:before {
 #get-quote-curved-section {
     margin-top: 230px;
 }
-/*-----------------------[ 25.our Client Page CSS ]------------------------*/
+/*-----------------------[ 25.Brand Grid CSS ]------------------------*/
 #our-client-bg {
     background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('../images/clients-page/header-img.jpg');
 }
@@ -2343,7 +2365,7 @@ input:checked+.slid-btn:before {
     letter-spacing: 0;
     display: inline-block;
 }
-/*-----------------------[ 29.Coming Soon Page CSS ]------------------------*/
+/*-----------------------[ 29.Holding Section CSS ]------------------------*/
 .coming-soon {
     width: 100%;
     display: block;
@@ -2540,36 +2562,53 @@ input:checked+.slid-btn:before {
 }
 .single-services-black-box {
     background: #000;
-    padding: 30px;
+    padding: 24px 28px;
+    border-left: 5px solid #f92816;
 }
 .single-services-black-box h3 {
     color: var(--5, #FFF);
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 700;
-    line-height: 48px;
+    line-height: 40px;
+    margin-bottom: 0;
 }
 .single-services-sub-box {
-    padding: 30px;
-    background: #029fe1;
+    padding: 8px 24px;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-top: 0;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
 }
 .single-services-sub-box ul li a {
-    color: var(--4, #029fe1);
+    color: #111;
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 16px;
+    padding: 12px 0;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+.single-services-sub-box ul li a img {
+    flex: 0 0 auto;
+    transition: filter 0.3s ease, transform 0.3s ease;
 }
 .single-services-sub-box ul li a:hover {
+    color: #f92816;
+    transform: translateX(4px);
+}
+.single-services-sub-box ul li a:hover img,
+.single-services-sub-box ul li a.current-page-active img {
     filter: brightness(0) saturate(100%) invert(42%) sepia(92%) saturate(1205%) hue-rotate(346deg) brightness(96%) contrast(97%);
 }
-.current-page-active {
-    filter: brightness(0) saturate(100%) invert(42%) sepia(92%) saturate(1205%) hue-rotate(346deg) brightness(96%) contrast(97%);
+.single-services-sub-box ul li a.current-page-active {
+    color: #f92816;
+    font-weight: 700;
 }
 .single-services-sub-box ul li {
-    padding: 15px 0;
-    border-bottom: 2px solid #A8A9AD;
+    border-bottom: 1px solid #e6e6e6;
 }
 .ad-box {
     background: #000;
@@ -2581,6 +2620,12 @@ input:checked+.slid-btn:before {
 .ad-box img:nth-child(1) {
     position: relative;
     z-index: 1;
+    width: 190px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    background: #fff;
+    padding: 10px;
 }
 .frist-services {
     color: var(--5, #FFF);
@@ -2670,7 +2715,7 @@ input:checked+.slid-btn:before {
     gap: 24px;
     display: grid;
 }
-/*-----------------------[ 33.Project Page Two CSS ]------------------------*/
+/*-----------------------[ 33.Project Slider CSS ]------------------------*/
 #project2-slider-header {
     background: rgba(255, 255, 255, 0.52);
 }
@@ -2801,7 +2846,7 @@ input:checked+.slid-btn:before {
         font-size: 40px;
     }
 }
-/*-----------------------[ 34.Project Page Three CSS ]------------------------*/
+/*-----------------------[ 34.Project Grid CSS ]------------------------*/
 #project3-page-row {
     gap: 30px 0;
 }
@@ -2897,29 +2942,67 @@ input:checked+.slid-btn:before {
 .portfolio-item:hover .portfolio-content {
     transform: scaleY(1);
 }
-/*-----------------------[ 35.Single Project Page CSS ]------------------------*/
+/*-----------------------[ 35.Project Detail CSS ]------------------------*/
 #single-project-bg {
     background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('../images/project-page/singleProject-img.jpg');
 }
 .project-detail-box {
-    padding: 30px;
-    background: #029fe1;
-    max-width: 420px;
-    margin: 40px 0;
+    padding: 24px;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-left: 5px solid #f92816;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
 }
 .Category-main {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 10px;
-    padding: 15px 0;
-    border-bottom: 2px solid #A8A9AD;
+    padding: 14px 0;
+    border-bottom: 1px solid #e6e6e6;
 }
 .Category-main h2 {
-    color: var(--4, #029fe1);
+    color: #111;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 30px;
+    margin-bottom: 0;
+}
+.Category-main p {
+    color: #5f6064;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 0;
+    text-align: right;
+}
+.project-detail-row {
+    row-gap: 40px;
+}
+.project-detail-main-img {
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+    margin-bottom: 40px;
+}
+.project-detail-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin: 34px 0;
+}
+.project-detail-gallery img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+.project-detail-links.single-services-sub-box {
+    margin-bottom: 30px;
+}
+.project-detail-links.single-services-sub-box ul li a {
+    font-size: 18px;
+    line-height: 28px;
 }
 .singleProject-img3 {
     width: 100%;
@@ -2929,7 +3012,7 @@ input:checked+.slid-btn:before {
     height: 630px;
     object-fit: cover;
 }
-/*-----------------------[ 36.Blog Page CSS ]------------------------*/
+/*-----------------------[ 36.Article Card CSS ]------------------------*/
 #blog-page-row {
     gap: 30px 0;
 }
@@ -3178,10 +3261,12 @@ textarea::placeholder {
     max-width: 90%;
     width: 800px;
 }
-.video-wrapper iframe {
+.video-wrapper iframe,
+.video-wrapper video {
     width: 100%;
     height: 450px;
     border-radius: 8px;
+    object-fit: cover;
 }
 .close-btn {
     position: absolute;
@@ -3214,7 +3299,7 @@ textarea::placeholder {
     display: flex;
     justify-content: center;
 }
-.heroSlider2-row .Handyman-main-text,
+.heroSlider2-row .AlliedConstruction-main-text,
 .heroSlider2-row .eget {
     text-align: center;
 }

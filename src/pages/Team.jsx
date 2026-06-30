@@ -43,7 +43,7 @@ const Team = () => {
                                 <Link to="/SingleTeam">
                                     <div className="team-mem-details">
                                         <h2>Kevin Martin</h2>
-                                        <p>carpenter</p>
+                                        <p>Site Supervisor</p>
                                     </div>
                                 </Link>
                                 <TeamSocialMedia />
@@ -55,7 +55,7 @@ const Team = () => {
                                 <Link to="/SingleTeam">
                                     <div className="team-mem-details">
                                         <h2>Richard Smith</h2>
-                                        <p>ELECTRICIAN</p>
+                                        <p>Electrical Lead</p>
                                     </div>
                                 </Link>
                                 <TeamSocialMedia />
@@ -67,7 +67,7 @@ const Team = () => {
                                 <Link to="/SingleTeam">
                                     <div className="team-mem-details">
                                         <h2>Max Walker</h2>
-                                        <p>Painter</p>
+                                        <p>Finishing Specialist</p>
                                     </div>
                                 </Link>
                                 <TeamSocialMedia />
@@ -79,7 +79,7 @@ const Team = () => {
                                 <Link to="/SingleTeam">
                                     <div className="team-mem-details">
                                         <h2>Melena Marshall</h2>
-                                        <p>Cleaning</p>
+                                        <p>Project Coordinator</p>
                                     </div>
                                 </Link>
                                 <TeamSocialMedia />
@@ -91,7 +91,7 @@ const Team = () => {
                                 <Link to="/SingleTeam">
                                     <div className="team-mem-details">
                                         <h2>Kevin Copper</h2>
-                                        <p>Water Filtration</p>
+                                        <p>Plumbing Lead</p>
                                     </div>
                                 </Link>
                                 <TeamSocialMedia />
@@ -103,7 +103,7 @@ const Team = () => {
                                 <Link to="/SingleTeam">
                                     <div className="team-mem-details">
                                         <h2>Robert Mick</h2>
-                                        <p>carpenter</p>
+                                        <p>Carpentry Lead</p>
                                     </div>
                                 </Link>
                                 <TeamSocialMedia />
@@ -115,7 +115,7 @@ const Team = () => {
                                 <Link to="/SingleTeam">
                                     <div className="team-mem-details">
                                         <h2>Millie Brown</h2>
-                                        <p>Air Condition</p>
+                                        <p>AC Specialist</p>
                                     </div>
                                 </Link>
                                 <TeamSocialMedia />
@@ -127,7 +127,7 @@ const Team = () => {
                                 <Link to="/SingleTeam">
                                     <div className="team-mem-details">
                                         <h2>Matteo Ermete</h2>
-                                        <p>Cleaning</p>
+                                        <p>Handover Coordinator</p>
                                     </div>
                                 </Link>
                                 <TeamSocialMedia />
@@ -151,7 +151,7 @@ const Team = () => {
                                 <Link to="/SingleTeam">
                                     <div className="team-mem-details">
                                         <h2>Jessica Smith</h2>
-                                        <p>electrician</p>
+                                        <p>Electrical Specialist</p>
                                     </div>
                                 </Link>
                                 <TeamSocialMedia />
@@ -187,8 +187,7 @@ const Team = () => {
                             <Link to="/Contact" className="diamond-btn calendar-btn">
                                 <img src={Calender} alt="calendar" />
                             </Link>
-                            <h3>Our Expert Will Be Available <span>Mon - Fri (9 Am - 6 Pm)</span> Book An Appointment For
-                                Services.</h3>
+                            <h3>Our expert will be available <span>Mon - Fri (9 Am - 6 Pm)</span> to discuss your project.</h3>
                         </div>
                     </div>
                 </div>

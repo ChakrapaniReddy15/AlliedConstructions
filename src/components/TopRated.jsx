@@ -14,7 +14,7 @@ const TopRated = () => {
                         <div className="quality-main about-qulity-main fade_down">
                             <p className="quality">TOP RATED</p>
                         </div>
-                        <h2 className="handyman-text handyman-services fade_down">Highest rated project</h2>
+                        <h2 className="alliedconstruction-text alliedconstruction-services fade_down">Highest rated project</h2>
                         <p className="fusce malesuada pharetra fade_down">
                             Our highest rated project reflects a complete construction journey—from intelligent layout planning and
                             structural design to refined interior detailing and final finishes. Every phase is executed with precision,

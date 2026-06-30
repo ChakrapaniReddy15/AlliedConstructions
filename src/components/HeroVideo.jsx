@@ -10,7 +10,6 @@ Modal.setAppElement("#root");
 
 const HeroVideo = () => {
 
-    // YouTube Video PopUp 
     const [isOpen, setIsOpen] = useState(false);
     const openModal = () => setIsOpen(true);
     const closeModal = () => setIsOpen(false);
@@ -30,10 +29,10 @@ const HeroVideo = () => {
                             <div className="quality-main">
                                 <p className="quality">Allied Constructions</p>
                             </div>
-                            <h1 className="Handyman-main-text">Sustainable Construction Solution</h1>
+                            <h1 className="AlliedConstruction-main-text">Sustainable Construction Solution</h1>
                             <h2 className="eget">Build it strong. Build it beautiful. Build it to last generations.</h2>
                             <div className="sec-one-buttons">
-                                <Link to="/GetQuote" className="btn-main btn1">Get A Quote
+                                <Link to="/Contact" className="btn-main btn1">Get A Quote
                                     <span className="arrow-section">
                                         <img className="arrow" src={RightArrowSvg} alt="right-arrow-svg" />
                                     </span>
@@ -54,20 +53,14 @@ const HeroVideo = () => {
                         <Modal
                             isOpen={isOpen}
                             onRequestClose={closeModal}
-                            contentLabel="YouTube Video"
+                            contentLabel="Allied Construction video"
                             className="video-modal"
                             overlayClassName="video-overlay"
                         >
                             <div className="video-wrapper">
-                                <iframe
-                                    width="100%"
-                                    height="400"
-                                    src="https://www.youtube.com/embed/Hh3MjLaDNG8?autoplay=1"
-                                    title="YouTube video"
-                                    frameBorder="0"
-                                    allow="autoplay; fullscreen"
-                                    allowFullScreen
-                                ></iframe>
+                                <video controls autoPlay>
+                                    <source src={video1} type="video/mp4" />
+                                </video>
                             </div>
                             <button onClick={closeModal} className="close-btn">✖</button>
                         </Modal>

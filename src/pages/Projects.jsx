@@ -1,12 +1,10 @@
 import React from 'react'
-import EstimateImg1 from '../assets/images/home-page/estimate-img1.jpg';
-import EstimateImg2 from '../assets/images/home-page/estimate-img2.jpg';
-import EstimateImg3 from '../assets/images/home-page/estimate-img3.jpg';
 import ArrowCrossSvg from '../assets/images/svg/arrow-cross.svg';
 import RightArrowSvg from '../assets/images/svg/right-arrow-svg.svg';
 import { Link } from 'react-router-dom';
 import TopRated from '../components/TopRated';
 import Faq from '../components/Faq';
+import { projects } from '../data/projectData.js';
 
 const Projects = () => {
     return (
@@ -27,87 +25,37 @@ const Projects = () => {
             <section className="section-eight">
                 <div className="container">
                     <div className="quality-main about-qulity-main fade_down">
-                        <p className="quality">FRIENDLY SERVICES</p>
+                        <p className="quality">allied projects</p>
                     </div>
-                    <div className="handyman-services-textMain">
-                        <h2 className="handyman-text handyman-services project-page-heading fade_down">Visit our best handyman
+                    <div className="alliedconstruction-services-textMain">
+                        <h2 className="alliedconstruction-text alliedconstruction-services project-page-heading fade_down">Visit our Allied Construction
                             projects
                         </h2>
-                        <p className="fusce malesuada tellus fade_down mt-0">Volutpat et malesuada maecenas amet. Ultrices volutpat
-                            auctor euismod eget pulvinar nulla porttitor. Faucibus faucibus consectetur et tellus magnis. Nunc
-                            proin mauris enim duis aliquet fringilla.
+                        <p className="fusce malesuada tellus fade_down mt-0">Explore selected work across construction,
+                            renovation, roofing, utilities, and finishing. Each project reflects coordinated execution and
+                            attention to practical site details.
                         </p>
                     </div>
                     <div className="row project-page-row">
-                        <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 project-page-col">
-                            <div className="img-wrapper">
-                                <img src={EstimateImg2} alt="estimate-img2" />
-                                <div className="overlay"></div>
-                                <div className="overlay-text">
-                                    <p>Fixing A Water Pipe</p>
-                                    <Link to="/SingleProject" className="view-details-btn">View Details
-                                        <img src={ArrowCrossSvg} alt="arrow-cross" />
-                                    </Link>
-                                </div>
+                        {[0, 1, 2].map((columnIndex) => (
+                            <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 project-page-col" key={columnIndex}>
+                                {projects.filter((_, index) => index % 3 === columnIndex).map((project, index) => (
+                                    <div className="img-wrapper" key={project.slug}>
+                                        <img className={index % 2 === 0 ? 'estimate-img' : ''} src={project.image} alt={project.title} />
+                                        <div className="overlay"></div>
+                                        <div className="overlay-text">
+                                            <p>{project.title}</p>
+                                            <Link to={`/Projects/${project.slug}`} className="view-details-btn">View Details
+                                                <img src={ArrowCrossSvg} alt="arrow-cross" />
+                                            </Link>
+                                        </div>
+                                    </div>
+                                ))}
                             </div>
-                            <div className="img-wrapper">
-                                <img className="estimate-img" src={EstimateImg1} alt="estimate-img1" />
-                                <div className="overlay"></div>
-                                <div className="overlay-text">
-                                    <p>Perfect Split AC Installation Service Work</p>
-                                    <Link to="/SingleProject" className="view-details-btn">View Details
-                                        <img src={ArrowCrossSvg} alt="arrow-cross" />
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 project-page-col">
-                            <div className="img-wrapper">
-                                <img className="estimate-img" src={EstimateImg1} alt="estimate-img1" />
-                                <div className="overlay"></div>
-                                <div className="overlay-text">
-                                    <p>Perfect Split AC Installation Service Work</p>
-                                    <Link to="/SingleProject" className="view-details-btn">View Details
-                                        <img src={ArrowCrossSvg} alt="arrow-cross" />
-                                    </Link>
-                                </div>
-                            </div>
-                            <div className="img-wrapper">
-                                <img src={EstimateImg2} alt="estimate-img2" />
-                                <div className="overlay"></div>
-                                <div className="overlay-text">
-                                    <p>Fixing A Water Pipe</p>
-                                    <Link to="/SingleProject" className="view-details-btn">View Details
-                                        <img src={ArrowCrossSvg} alt="arrow-cross" />
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-8 project-page-col">
-                            <div className="img-wrapper">
-                                <img src={EstimateImg3} alt="estimate-img3" />
-                                <div className="overlay"></div>
-                                <div className="overlay-text">
-                                    <p>Quality Roofing Services</p>
-                                    <Link to="/SingleProject" className="view-details-btn">View Details
-                                        <img src={ArrowCrossSvg} alt="arrow-cross" />
-                                    </Link>
-                                </div>
-                            </div>
-                            <div className="img-wrapper">
-                                <img className="estimate-img" src={EstimateImg1} alt="estimate-img1" />
-                                <div className="overlay"></div>
-                                <div className="overlay-text">
-                                    <p>Perfect Split AC Installation Service Work</p>
-                                    <Link to="/SingleProject" className="view-details-btn">View Details
-                                        <img src={ArrowCrossSvg} alt="arrow-cross" />
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
+                        ))}
                     </div>
                     <div className="testimonials-btn fade_down">
-                        <Link to="#" className="btn-main btn2">Load More
+                        <Link to="/Contact" className="btn-main btn2">Start A Project
                             <span className="arrow-section">
                                 <img className="arrow" src={RightArrowSvg} alt="right-arrow-svg" />
                             </span>

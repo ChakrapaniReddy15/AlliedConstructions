@@ -9,12 +9,12 @@ const FreeContact = () => {
                 <div className="free-contact-sec-main">
                     <div>
                         <div className="quality-main about-qulity-main fade_down">
-                            <p className="quality">fell free to contact</p>
+                            <p className="quality">feel free to contact</p>
                         </div>
-                        <h2 className="handyman-text premium-handyman fade_down">Get premium allied constructions service from us!
+                        <h2 className="alliedconstruction-text premium-alliedconstruction fade_down">Get premium Allied Construction services from us!
                         </h2>
                     </div>
-                    <Link to="/contact" className="btn-main btn1">Contact Us
+                    <Link to="/Contact" className="btn-main btn1">Contact Us
                         <span className="arrow-section">
                             <img className="arrow" src={RightArrowSvg} alt="right-arrow-svg" />
                         </span>

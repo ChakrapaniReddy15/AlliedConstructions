@@ -11,12 +11,8 @@ import Home from './pages/Home3.jsx';
 import About from './pages/About.jsx';
 import Team from './pages/Team.jsx';
 import SingleTeam from './pages/SingleTeam.jsx';
-import PricingPlan from './pages/PricingPlan.jsx';
-import GetQuote from './pages/GetQuote.jsx';
-import OurClients from './pages/OurClients.jsx';
 import Testimonials from './pages/Testimonials.jsx';
 import FaqPage from './pages/FaqPage.jsx';
-import ComingSoon from './pages/ComingSoon.jsx';
 import Services from './pages/Services.jsx';
 import NotFound from './pages/NotFound.jsx';
 import PlumbingService from './pages/PlumbingService.jsx';
@@ -29,16 +25,7 @@ import ElectricalService from './pages/ElectricalService.jsx';
 import SolarService from './pages/SolarService.jsx';
 import WeldingService from './pages/WeldingService.jsx';
 import Projects from './pages/Projects.jsx';
-import Projects2 from './pages/Projects2.jsx';
-import SingleProject from './pages/SingleProject.jsx';
-import SingleProject2 from './pages/SingleProject2.jsx';
-import SingleProject3 from './pages/SingleProject3.jsx';
-import OurBlog from './pages/OurBlog.jsx';
-import Blog2 from './pages/Blog2.jsx';
-import Blog3 from './pages/Blog3.jsx';
-import SingleBlog from './pages/SingleBlog.jsx';
-import SingleBlog2 from './pages/SingleBlog2.jsx';
-import SingleBlog3 from './pages/SingleBlog3.jsx';
+import ProjectDetail from './pages/ProjectDetail.jsx';
 import Contact from './pages/Contact.jsx';
 
 
@@ -70,24 +57,6 @@ function App() {
           <Route path="/SingleTeam" element={
             <MainLayout>
               <SingleTeam />
-            </MainLayout>
-          }
-          />
-          <Route path="/PricingPlan" element={
-            <MainLayout>
-              <PricingPlan />
-            </MainLayout>
-          }
-          />
-          <Route path="/GetQuote" element={
-            <MainLayout>
-              <GetQuote />
-            </MainLayout>
-          }
-          />
-          <Route path="/OurClients" element={
-            <MainLayout>
-              <OurClients />
             </MainLayout>
           }
           />
@@ -175,63 +144,9 @@ function App() {
             </MainLayout>
           }
           />
-          <Route path="/Projects2" element={
+          <Route path="/Projects/:slug" element={
             <MainLayout>
-              <Projects2 />
-            </MainLayout>
-          }
-          />
-          <Route path="/SingleProject" element={
-            <MainLayout>
-              <SingleProject />
-            </MainLayout>
-          }
-          />
-          <Route path="/SingleProject2" element={
-            <MainLayout>
-              <SingleProject2 />
-            </MainLayout>
-          }
-          />
-          <Route path="/SingleProject3" element={
-            <MainLayout>
-              <SingleProject3 />
-            </MainLayout>
-          }
-          />
-          <Route path="/OurBlog" element={
-            <MainLayout>
-              <OurBlog />
-            </MainLayout>
-          }
-          />
-          <Route path="/Blog2" element={
-            <MainLayout>
-              <Blog2 />
-            </MainLayout>
-          }
-          />
-          <Route path="/Blog3" element={
-            <MainLayout>
-              <Blog3 />
-            </MainLayout>
-          }
-          />
-          <Route path="/SingleBlog" element={
-            <MainLayout>
-              <SingleBlog />
-            </MainLayout>
-          }
-          />
-          <Route path="/SingleBlog2" element={
-            <MainLayout>
-              <SingleBlog2 />
-            </MainLayout>
-          }
-          />
-          <Route path="/SingleBlog3" element={
-            <MainLayout>
-              <SingleBlog3 />
+              <ProjectDetail />
             </MainLayout>
           }
           />
@@ -241,8 +156,6 @@ function App() {
             </MainLayout>
           }
           />
-          {/* Pages WITHOUT header/footer */}
-          <Route path="/ComingSoon" element={<ComingSoon />} />
         </Routes>
       </BrowserRouter>
     </>

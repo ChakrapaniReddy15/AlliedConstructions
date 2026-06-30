@@ -12,7 +12,7 @@ const OurProcess = () => {
                     <div className="quality-main ourProcess fade_down">
                         <p className="quality">our process</p>
                     </div>
-                    <h2 className="handyman-text quick fade_down">Easy quick following steps</h2>
+                    <h2 className="alliedconstruction-text quick fade_down">Easy quick following steps</h2>
                     <p className="fusce malesuada elementum fade_down">
                         Our streamlined process ensures clarity, quality, and timely delivery—from initial consultation
                         and design planning to construction execution and final handover.
