@@ -14,12 +14,12 @@ import RightArrowSvg from '../assets/images/svg/right-arrow-svg.svg';
 
 const testimonials = [
     [ClientImg1, 'Vicky Finch', 'Allied Constructions handled our renovation with clear planning and steady site updates. The final finish was clean, practical, and exactly what we expected.'],
-    [ClientImg2, 'Rachel York', 'Their team coordinated civil, electrical, and painting work smoothly. We appreciated the transparency in timelines and material choices.'],
-    [ClientImg3, 'Helan Smith', 'The project was delivered with good workmanship and careful supervision. Small changes were handled without confusion.'],
+    [ClientImg2, 'Rachel York', 'Their team managed civil, electrical, and painting work smoothly. We appreciated the clear timeline and material choices.'],
+    [ClientImg3, 'Helan Smith', 'The project was completed with good workmanship and careful site checks. Small changes were handled without confusion.'],
     [ClientImg4, 'Max Walker', 'We hired Allied Constructions for roofing and waterproofing support. The team inspected the issue properly and completed the repair neatly.'],
     [ClientImg5, 'Kevin Martin', 'The interiors were planned around our actual usage. Storage, lighting, and finishing details all came together well.'],
-    [ClientImg6, 'Melena Marshall', 'Professional team, responsive communication, and quality execution. The handover was smooth and well organized.'],
-    [ClientImg7, 'Robert Mick', 'They helped us plan plumbing and electrical upgrades during renovation. The coordination saved time and reduced rework.'],
+    [ClientImg6, 'Melena Marshall', 'Professional team, quick communication, and quality work. The final completion was smooth and well organized.'],
+    [ClientImg7, 'Robert Mick', 'They helped us plan plumbing and electrical upgrades during renovation. Their planning saved time and reduced rework.'],
     [ClientImg8, 'Jessica Smith', 'Allied Constructions gave us a clear estimate and delivered dependable work. The site remained organized throughout.'],
     [ClientImg9, 'Mike Hardson', 'Good finishing quality and practical suggestions from the team. We would recommend them for construction and renovation work.'],
 ];

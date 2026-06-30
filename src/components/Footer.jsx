@@ -18,12 +18,12 @@ function Footer() {
                 <div className="container ScheduleService-main">
                     <img className="parts-img" src={PartsImg} alt="parts-img" />
                     <div>
-                        <h3 className="need">Need to schedule your first service?</h3>
+                        <h3 className="need">Planning your next construction project?</h3>
                         <p className="egestas">
-                            Get started with a hassle-free service experience tailored to your schedule and needs.
+                            Talk to Allied Constructions about building work, renovation, interiors, or complete project work.
                         </p>
                     </div>
-                    <Link to="/Contact" className="btn-main btn1 bookNowSchedul">Book Now
+                    <Link to="/Contact" className="btn-main btn1 bookNowSchedul">Contact Us
                         <span className="arrow-section">
                             <img className="arrow" src={RightArrowSvg} alt="right-arrow-svg" />
                         </span>
@@ -41,7 +41,7 @@ function Footer() {
                                 <img className="footer-brand-logo" src={AlliedLogo} alt="Allied Constructions" />
                             </Link>
                             <p className="morbi">Allied Constructions delivers reliable construction, renovation, interiors,
-                                and project support with clear planning, quality workmanship, and practical handover.</p>
+                                and project work with clear planning, quality workmanship, and a clean finish.</p>
                         </div>
                         <div className="col-xxl-3 col-xl-3 col-lg-6 col-md-6 footer-col">
                             <h2 className="useful-link-text">Useful Links</h2>

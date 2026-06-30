@@ -60,7 +60,7 @@ const ServiceDetailLayout = ({ service }) => {
                                     <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne"
                                         data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
-                                            We begin with a site review, understand the scope, coordinate related trades, and then prepare a practical execution plan for quality delivery.
+                                            We first visit the site, understand what needs to be done, plan the work, and explain the next steps clearly.
                                         </div>
                                     </div>
                                 </div>
@@ -74,7 +74,7 @@ const ServiceDetailLayout = ({ service }) => {
                                     <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo"
                                         data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
-                                            Yes. We can handle it as a standalone service or coordinate it with civil, interior, electrical, finishing, and handover activities.
+                                            Yes. We can handle it alone or include it as part of construction, renovation, interiors, or finishing work.
                                         </div>
                                     </div>
                                 </div>
@@ -82,13 +82,13 @@ const ServiceDetailLayout = ({ service }) => {
                                     <h2 className="accordion-header" id="headingThree">
                                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            Do you inspect the work before handover?
+                                            Do you check the work before completion?
                                         </button>
                                     </h2>
                                     <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree"
                                         data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
-                                            Yes. We review alignment, finish, safety, and usability before handover so the completed work is ready for daily use.
+                                            Yes. We check the finish, safety, and daily use before the work is marked complete.
                                         </div>
                                     </div>
                                 </div>

@@ -25,15 +25,15 @@ const Projects = () => {
             <section className="section-eight">
                 <div className="container">
                     <div className="quality-main about-qulity-main fade_down">
-                        <p className="quality">allied projects</p>
+                        <p className="quality">construction projects</p>
                     </div>
                     <div className="alliedconstruction-services-textMain">
-                        <h2 className="alliedconstruction-text alliedconstruction-services project-page-heading fade_down">Visit our Allied Construction
-                            projects
+                        <h2 className="alliedconstruction-text alliedconstruction-services project-page-heading fade_down">Allied Construction
+                            project portfolio
                         </h2>
-                        <p className="fusce malesuada tellus fade_down mt-0">Explore selected work across construction,
-                            renovation, roofing, utilities, and finishing. Each project reflects coordinated execution and
-                            attention to practical site details.
+                        <p className="fusce malesuada tellus fade_down mt-0">Explore selected construction projects across
+                            homes, offices, remodels, terrace improvements, and completed building work. Each project shows
+                            clear planning, careful site work, quality checks, and a clean finish.
                         </p>
                     </div>
                     <div className="row project-page-row">

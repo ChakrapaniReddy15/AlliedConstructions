@@ -474,6 +474,19 @@
     .img-group-estimate-main {
         gap: 20px;
     }
+    .project-home-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 18px;
+        margin-top: 30px;
+    }
+    .project-home-card,
+    .project-home-img {
+        height: 360px;
+    }
+    .project-home-overlay-text p {
+        font-size: 19px;
+        line-height: 27px;
+    }
     .img-group-estimate2 {
         gap: 20px;
         padding-top: 10px;
@@ -835,6 +848,15 @@
     .img-group-estimate-main {
         flex-direction: column;
         margin-top: 20px;
+    }
+    .project-home-grid {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 18px;
+        margin-top: 25px;
+    }
+    .project-home-card,
+    .project-home-img {
+        height: 300px;
     }
     .overlay-text p {
         margin-bottom: 10px;

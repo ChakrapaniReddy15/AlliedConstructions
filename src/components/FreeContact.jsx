@@ -11,7 +11,7 @@ const FreeContact = () => {
                         <div className="quality-main about-qulity-main fade_down">
                             <p className="quality">feel free to contact</p>
                         </div>
-                        <h2 className="alliedconstruction-text premium-alliedconstruction fade_down">Get premium Allied Construction services from us!
+                        <h2 className="alliedconstruction-text premium-alliedconstruction fade_down">Start your construction work with Allied Constructions
                         </h2>
                     </div>
                     <Link to="/Contact" className="btn-main btn1">Contact Us

@@ -40,7 +40,7 @@ const ProjectDetail = () => {
                             </div>
                             <h2 className="alliedconstruction-text fade_down">{project.title}</h2>
                             <p className="fusce fade_down">{project.overview}</p>
-                            <h2 className="interdum fade_down">Scope Of Work</h2>
+                            <h2 className="interdum fade_down">Work Completed</h2>
                             <div className="plan-body plumbing-body-list fade_down">
                                 <ul>
                                     {project.scope.map((item) => (
@@ -54,7 +54,7 @@ const ProjectDetail = () => {
                                 ))}
                             </div>
                             <h2 className="interdum fade_down">Project Outcome</h2>
-                            <p className="fusce fade_down">{project.outcome}</p>
+                            <p className="fusce project-outcome-text fade_down">{project.outcome}</p>
                         </div>
                         <div className="col-xxl-4 col-xl-4 col-lg-4">
                             <div className="project-detail-box fade_down">

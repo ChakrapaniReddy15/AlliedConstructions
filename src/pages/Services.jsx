@@ -30,8 +30,8 @@ const Services = () => {
                             Allied Construction services for stronger, better-planned spaces
                         </h2>
                         <p className="fusce malesuada tellus fade_down mt-0">
-                            We support construction, renovation, maintenance, and finishing needs with coordinated execution,
-                            practical planning, and attention to long-term performance.
+                            We help with construction, renovation, repairs, and finishing work through clear planning,
+                            careful site work, and quality checks.
                         </p>
                     </div>
                     <div className="row services-page-row">

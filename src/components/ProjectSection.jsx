@@ -11,13 +11,12 @@ const ProjectSection = () => {
                 <div className="row">
                     <div className="col-xxl-4 col-xl-4 col-lg-4">
                         <div className="quality-main about-qulity-main fade_down">
-                            <p className="quality">get free estimate</p>
+                            <p className="quality">construction portfolio</p>
                         </div>
-                        <h2 className="alliedconstruction-text fade_down">Visit our allied constructions projects</h2>
+                        <h2 className="alliedconstruction-text fade_down">Explore Allied Construction project work</h2>
                         <p className="fusce fade_down">
-                            Explore our portfolio of allied construction projects that showcase quality, innovation, and precision.
-                            Each project reflects our commitment to excellence, timely execution, and sustainable building practices
-                            across residential, commercial, and industrial developments.
+                            See our work across homes, offices, remodels, terrace improvements, and completed building projects.
+                            Each project shows clear planning, careful site work, good finishing, and spaces that are easy to use.
                         </p>
 
                         <div className="Submit seemore-btn-main">
@@ -31,40 +30,20 @@ const ProjectSection = () => {
                         </div>
                     </div>
                     <div className="col-xxl-8 col-xl-8 col-lg-8">
-                        <div className="img-group-estimate-main">
-                            <div className="img-wrapper">
-                                <img className="estimate-img img-animation-style1 reveal" src={featuredProjects[1].image}
-                                    alt={featuredProjects[1].title} />
-                                <div className="overlay"></div>
-                                <div className="overlay-text">
-                                    <p>{featuredProjects[1].title}</p>
-                                    <Link to={`/Projects/${featuredProjects[1].slug}`} className="view-details-btn">View Details
-                                        <img src={ArrowCross} alt="arrow-cross" />
-                                    </Link>
-                                </div>
-                            </div>
-                            <div className="img-group-estimate2">
-                                <div className="img-wrapper">
-                                    <img className="img-animation-style4 reveal" src={featuredProjects[0].image} alt={featuredProjects[0].title} />
+                        <div className="project-home-grid">
+                            {featuredProjects.map((project) => (
+                                <div className="img-wrapper project-home-card" key={project.slug}>
+                                    <img className="project-home-img" src={project.image} alt={project.title} />
                                     <div className="overlay"></div>
-                                    <div className="overlay-text">
-                                        <p>{featuredProjects[0].title}</p>
-                                        <Link to={`/Projects/${featuredProjects[0].slug}`} className="view-details-btn">View Details
+                                    <div className="overlay-text project-home-overlay-text">
+                                        <span>{project.category}</span>
+                                        <p>{project.title}</p>
+                                        <Link to={`/Projects/${project.slug}`} className="view-details-btn">View Details
                                             <img src={ArrowCross} alt="arrow-cross" />
                                         </Link>
                                     </div>
                                 </div>
-                                <div className="img-wrapper">
-                                    <img className="img-animation-style2 reveal" src={featuredProjects[2].image} alt={featuredProjects[2].title} />
-                                    <div className="overlay"></div>
-                                    <div className="overlay-text">
-                                        <p>{featuredProjects[2].title}</p>
-                                        <Link to={`/Projects/${featuredProjects[2].slug}`} className="view-details-btn">View Details
-                                            <img src={ArrowCross} alt="arrow-cross" />
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
+                            ))}
                         </div>
                     </div>
                 </div>

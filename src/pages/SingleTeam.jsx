@@ -108,8 +108,8 @@ const SingleTeam = () => {
                             </div>
                             <h2 className="alliedconstruction-text fade_down">Richard Smith</h2>
                             <p className="fusce fade_down">Richard Smith supports Allied Constructions with electrical planning,
-                                site coordination, testing, and finishing support. His work helps keep projects safe, organized,
-                                and ready for practical daily use.
+                                site checks, testing, and finishing support. His work helps keep projects safe, organized,
+                                and ready for daily use.
                             </p>
                             <div className="contact-team-main">
                                 <div className="contact-team-person fade_down">
@@ -131,8 +131,8 @@ const SingleTeam = () => {
                                         <img src={AboutSecSvg1} alt="about-sec-svg1" />
                                         <p className="highQulity">Professional Skills</p>
                                     </div>
-                                    <p className="semper">Our team members bring practical site knowledge, safety awareness, and
-                                        trade coordination skills to every stage of construction and finishing.
+                                    <p className="semper">Our team members bring site knowledge, safety awareness, and
+                                        skilled planning to every stage of construction and finishing.
                                     </p>
                                 </div>
                                 {progressItems.map((item, idx) => (
@@ -161,11 +161,11 @@ const SingleTeam = () => {
                                     <img src={AboutSecSvg2} alt="about-sec-svg2" />
                                     <p className="highQulity">Areas Of Expertise</p>
                                 </div>
-                                <p className="semper">The focus is on electrical layouts, safe wiring practices, lighting
-                                    coordination, appliance points, and project handover checks.</p>
-                                <h4 className="Restructuring">Electrical planning and execution</h4>
-                                <p>We coordinate power points, lighting, panels, and service access with the project layout.</p>
-                                <h4 className="Restructuring">Site testing and handover support</h4>
+                                <p className="semper">The focus is on electrical layouts, safe wiring, lighting,
+                                    appliance points, and final project checks.</p>
+                                <h4 className="Restructuring">Electrical planning and work</h4>
+                                <p>We plan power points, lighting, panels, and service access with the project layout.</p>
+                                <h4 className="Restructuring">Site testing and final checks</h4>
                                 <p>Final checks help confirm that the completed work is safe, functional, and ready to use.</p>
                             </div>
                         </div>

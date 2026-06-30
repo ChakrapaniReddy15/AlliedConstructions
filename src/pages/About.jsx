@@ -66,9 +66,9 @@ const About = () => {
                             </div>
                         </div>
                         <div className="col-xxl-6 col-xl-6 col-lg-6">
-                            <p className="fusce fade_down">Allied Constructions brings planning, site execution, finishing, and
-                                service coordination together for residential and commercial spaces. We focus on dependable
-                                workmanship, clear communication, and practical delivery.
+                            <p className="fusce fade_down">Allied Constructions brings planning, site work, and finishing together
+                                for homes and commercial spaces. We focus on dependable work, clear communication, and clean
+                                project completion.
                             </p>
                             <div className="row highQulity-box-row2 highQulity-box-row overflow-hidden">
                                 <div className="col-xxl-12 p-0">
@@ -82,7 +82,7 @@ const About = () => {
                                     <div className="highQulity-box highQulity-box2 fade_right">
                                         <div className="qulity-work-grp">
                                             <img src={AboutSecSvg3} alt="about-sec-svg1" />
-                                            <p className="highQulity">Customized Solution</p>
+                                            <p className="highQulity">Custom Plan</p>
                                         </div>
                                         <p className="semper">Every plan is shaped around your site, budget, timeline, and daily-use requirements.</p>
                                     </div>
@@ -91,9 +91,9 @@ const About = () => {
                                     <div className="highQulity-box fade_left">
                                         <div className="qulity-work-grp">
                                             <img src={AboutSecSvg2} alt="about-sec-svg2" />
-                                            <p className="highQulity">Smart Execution System</p>
+                                            <p className="highQulity">Clear Work Process</p>
                                         </div>
-                                        <p className="semper">We coordinate civil, electrical, plumbing, carpentry, painting, and finishing work with less rework.</p>
+                                        <p className="semper">We plan civil, electrical, plumbing, carpentry, painting, and finishing work to reduce rework.</p>
                                     </div>
                                     <div className="highQulity-box highQulity-box2 fade_left">
                                         <div className="qulity-work-grp">
@@ -123,8 +123,8 @@ const About = () => {
                         </div>
                     </div>
                     <h3 className="tackle">We are your trusted Allied Construction team for new construction, renovations,
-                        repairs, and finishing work. Our skilled professionals coordinate the details so your project moves
-                        cleanly from site planning to handover.</h3>
+                        repairs, and finishing work. Our skilled team manages the details so your project moves
+                        clearly from planning to completion.</h3>
                     <div className="row  whatWeRow">
                         <div className="col-xxl-6 col-xl-6 col-lg-5 whatWe">
                             <h3>What We Do</h3>
@@ -155,8 +155,8 @@ const About = () => {
                         <p className="quality">our teams</p>
                     </div>
                     <h2 className="alliedconstruction-text legal fade_down">Experienced construction team</h2>
-                    <p className="fusce elementum fade_down">Our team combines site supervision, trade coordination, and finishing
-                        experience to deliver reliable construction outcomes.
+                    <p className="fusce elementum fade_down">Our team combines site experience, skilled workers, and finishing
+                        care to deliver reliable construction results.
                     </p>
                     <div className="row ourTeam-Row">
                         <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 ourTeam-Col">

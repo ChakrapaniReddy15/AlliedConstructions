@@ -52,9 +52,9 @@ const Home = () => {
                         </div>
                         <div className="col-xxl-6 col-xl-6 col-lg-6">
                             <p className="fusce fade_down">
-                                Allied Constructions delivers complete construction, renovation, and finishing support with a focus on
-                                quality workmanship, clear coordination, and practical project handover. From planning to execution, we
-                                help turn ideas into strong, functional spaces.
+                                Allied Constructions handles construction, renovation, and finishing work with a focus on
+                                quality, clear updates, and clean completion. From first plan to final work, we help turn
+                                ideas into strong and useful spaces.
                             </p>
                             <div className="row highQulity-box-row overflow-hidden">
                                 <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
@@ -71,14 +71,14 @@ const Home = () => {
                                 </div>
                                 <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
                                     <div className="highQulity-box fade_left">
-                                        <img src={AboutSecSvg2} style={iconFilter} alt="execution" />
-                                        <p className="highQulity">Project Execution</p>
-                                        <p className="semper">Our team coordinates planning, site work, finishing, and handover clearly.</p>
+                                        <img src={AboutSecSvg2} style={iconFilter} alt="project work" />
+                                        <p className="highQulity">Project Work</p>
+                                        <p className="semper">Our team keeps planning, site work, and final finishing clear.</p>
                                     </div>
                                     <div className="highQulity-box highQulity-box2 fade_left">
                                         <img src={AboutSecSvg4} style={iconFilter} alt="pricing" />
                                         <p className="highQulity">Transparent Pricing</p>
-                                        <p className="semper">We provide clear estimates and value-driven execution without avoidable surprises.</p>
+                                        <p className="semper">We provide clear estimates and help avoid unwanted surprises.</p>
                                     </div>
                                 </div>
                                 <p className="semper blandit">
@@ -116,8 +116,8 @@ const Home = () => {
                     <div className="alliedconstruction-services-textMain">
                         <h2 className="alliedconstruction-text alliedconstruction-services fade_down">Complete Allied Construction services for your property</h2>
                         <p className="fusce malesuada fade_down mt-0">
-                            From planning and construction to repairs, finishing, and project handover, our team coordinates services
-                            that keep your space strong, functional, and ready for daily use.
+                            From planning and construction to repairs and finishing, our team helps keep your space strong,
+                            useful, and ready for daily use.
                         </p>
                     </div>
                     <div className="services_slider">
@@ -178,8 +178,8 @@ const Home = () => {
                     </div>
                     <h2 className="alliedconstruction-text legal fade_down">Experienced construction team</h2>
                     <p className="fusce elementum fade_down">
-                        Our team brings site coordination, technical knowledge, and finishing discipline together so every project
-                        moves with clarity from planning to handover.
+                        Our team brings site experience, technical knowledge, and finishing care together so every project
+                        moves clearly from planning to completion.
                     </p>
                     <div className="row ourTeam-Row">
                         {[
