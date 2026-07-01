@@ -122,7 +122,7 @@ button {
     font-weight: 700;
     text-transform: uppercase;
     animation: loading 0.7s infinite alternate;
-    text-shadow: 2px 2px #029fe1 ;
+    text-shadow: 2px 2px #000052 ;
 }
 .loading-subtitle span {
     font-size: 28px;
@@ -309,7 +309,7 @@ button {
     position: relative;
 }
 .menu-list a {
-    color: var(--4, #029fe1);
+    color: var(--4, #000052);
     font-family: Outfit;
     font-size: 18px;
     font-style: normal;
@@ -322,6 +322,12 @@ button {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+.contact .icon {
+    background: #000052;
+}
+.contact .icon img {
+    filter: brightness(0) invert(1);
 }
 .arrow-icon-menu {
     transition: transform 0.3s ease-in-out;
@@ -416,7 +422,7 @@ button {
     justify-content: center;
 }
 .call-info p {
-    color: var(--4, #029fe1);
+    color: var(--4, #000052);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -634,7 +640,7 @@ button {
     padding: 100px 0;
 }
 .alliedconstruction-text {
-    color: var(--3, #000);
+    color: var(--3, #000052);
     font-size: 48px;
     font-weight: 700;
     line-height: 64px;
@@ -671,7 +677,7 @@ button {
     margin-top: 30px;
 }
 .fusce {
-    color: var(--4, #029fe1);
+    color: var(--4, #000052);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -685,7 +691,7 @@ button {
     padding: 10px 0;
 }
 .semper {
-    color: var(--4, #029fe1);
+    color: var(--4, #000052);
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -700,7 +706,7 @@ button {
     width: 100%;
 }
 .btn2 {
-    background: #029fe1;
+    background: #000052;
 }
 .about-sec-contact-main {
     display: flex;
@@ -723,7 +729,7 @@ button {
     justify-content: center;
 }
 .call-info-book p {
-    color: var(--4, #029fe1);
+    color: var(--4, #000052);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -739,7 +745,10 @@ button {
 }
 /*-----------------------[ 8.Section Three CSS ]------------------------*/
 .section-three {
-    background: var(--3, #000);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78)), url('../images/services-page/our-services.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 100px 0;
 }
 .alliedconstruction-services-textMain {
@@ -766,11 +775,11 @@ button {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(180deg, rgba(34, 34, 34, 0.00) 0%, #029fe1 100%);
+    background: linear-gradient(180deg, rgba(34, 34, 34, 0.00) 0%, #000052 100%);
     pointer-events: none;
 }
 .services-slider-box:hover::before {
-    background: linear-gradient(180deg, #029fe1 0%, #f92816 100%);
+    background: linear-gradient(180deg, #000052 0%, #f92816 100%);
 }
 .services-icon-box {
     position: absolute;
@@ -835,19 +844,19 @@ button {
     margin-bottom: 30px;
 }
 .input-main input {
-    background: #029fe1;
+    background: #000052;
     border: none;
     height: 48px;
     outline: none;
     padding: 12px;
-    color: var(--4, #029fe1);
+    color: var(--4, #000052);
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     width: 100%;
 }
 .input-main input::placeholder {
-    color: #029fe1;
+    color: #000052;
 }
 .wrapper {
     width: 100%;
@@ -856,8 +865,8 @@ button {
 .formDropDown {
     position: relative;
     padding: 12px;
-    background: #029fe1;
-    color: var(--4, #029fe1);
+    background: #000052;
+    color: var(--4, #000052);
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -879,10 +888,10 @@ button {
     top: 5px;
     width: 100%;
     z-index: 5;
-    border: 1px solid #029fe1;
+    border: 1px solid #000052;
 }
 .formDropDown-ul-list a {
-    color: var(--4, #029fe1);
+    color: var(--4, #000052);
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -918,7 +927,10 @@ button {
 }
 /*-----------------------[ 10.Section Five CSS ]------------------------*/
 .section-five {
-    background: #000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78)), url('../images/home-page/our-process.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 100px 0;
 }
 .ourProcess {
@@ -941,7 +953,7 @@ button {
     position: relative;
 }
 .steps-box {
-    background: #029fe1;
+    background: #000052;
     clip-path: polygon(50% 0%, 100% 15%, 100% 85%, 50% 100%, 50% 100%, 0 85%, 0 15%);
     text-align: center;
     padding: 20px;
@@ -959,7 +971,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--4, #029fe1);
+    color: var(--4, #000052);
     font-size: 36px;
     font-weight: 700;
     line-height: 36px;
@@ -1172,7 +1184,7 @@ button {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(180deg, #029fe1 0%, #f92816 100%);
+    background: linear-gradient(180deg, #000052 0%, #f92816 100%);
     opacity: 0;
     transition: opacity 0.4s ease-in-out;
     z-index: 1;
@@ -1305,7 +1317,7 @@ button {
     gap: 30px;
 }
 .Appointment-box-sub h3 {
-    color: var(--4, #029fe1);
+    color: var(--4, #000052);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -1428,7 +1440,7 @@ button {
     gap: 10px;
 }
 .tag-date-sub p {
-    color: var(--4, #029fe1);
+    color: var(--4, #000052);
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
@@ -1452,7 +1464,7 @@ button {
     background-position: 0% 50%;
 }
 .viverra {
-    color: var(--4, #029fe1);
+    color: var(--4, #000052);
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -1526,36 +1538,43 @@ button {
 }
 #accordionExample .accordion-button {
     padding: 12px;
+    color: #fff;
     font-size: 18px;
     font-weight: 600;
     line-height: 30px;
-    background: #029fe1;
+    background: #000052;
     margin-bottom: 15px;
 }
-.accordion-button:not(.collapsed) {
-    color: var(--2, #f92816);
-    background-color: #029fe1 !important;
+#accordionExample .accordion-button:not(.collapsed) {
+    color: #f92816;
+    background-color: #000052 !important;
+    box-shadow: none;
+}
+#accordionExample .accordion-button.collapsed {
+    color: #fff;
 }
 #accordionExample.accordion {
     --bs-accordion-border-color: none;
 }
 #accordionExample .accordion-body {
     padding: 0 0 30px 0;
-    color: var(--4, #029fe1);
+    color: var(--4, #000052);
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
 }
-.accordion-button::after {
-    background-image: url('../images/svg/down-arrow.svg');
+#accordionExample .accordion-button::after {
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 9L12 15L18 9' stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
     --bs-accordion-btn-icon-width: 2rem;
+    transform: rotate(0deg);
 }
-.accordion-button:not(.collapsed)::after {
+#accordionExample .accordion-button:not(.collapsed)::after {
     background-image: url('../images/svg/down-arrow-orange.svg');
+    transform: rotate(180deg);
 }
 /*-----------------------[ 17.Section Schedule Service CSS ]------------------------*/
 .ScheduleService {
-    background: #029fe1;
+    background: #000052;
     padding: 10px 0;
     overflow: hidden;
 }
@@ -1597,17 +1616,26 @@ button {
 }
 /*-----------------------[ 18.Footer CSS ]------------------------*/
 footer {
-    background: #000;
+    background: #fff;
     padding: 60px 0;
 }
 .footer-row {
+    display: grid;
+    grid-template-columns: minmax(250px, 0.95fr) minmax(190px, 0.7fr) minmax(270px, 0.95fr) minmax(360px, 1.25fr);
+    column-gap: 40px;
     align-items: flex-start;
     row-gap: 34px;
+    margin-left: 0;
+    margin-right: 0;
 }
 .footer-col {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: auto;
+    max-width: none;
+    padding-left: 0;
+    padding-right: 0;
 }
 .footer-brand-logo {
     width: 190px;
@@ -1616,7 +1644,7 @@ footer {
     display: block;
 }
 .morbi {
-    color: var(--8, #A8A9AD);
+    color: #000052;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -1630,9 +1658,23 @@ footer {
     line-height: 36px;
     margin-top: 0;
     margin-bottom: 14px;
+    white-space: nowrap;
 }
 .usefulLinks-List {
     padding-left: 0;
+}
+footer .footer-col>.row {
+    width: 100%;
+    flex-wrap: nowrap;
+    column-gap: 24px;
+    margin-left: 0;
+    margin-right: 0;
+}
+footer .footer-col>.row>.col-6 {
+    width: auto;
+    flex: 0 0 auto;
+    padding-left: 0;
+    padding-right: 0;
 }
 .usefulLinks-List li {
     padding: 8px 0;
@@ -1642,26 +1684,24 @@ footer {
     font-weight: 600;
     line-height: 24px;
     display: inline-block;
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    background-repeat: no-repeat;
+    white-space: nowrap;
+    color: #000052;
     transition: 0.5s ease-out;
-    background-image: linear-gradient(to right, #f92816 45%, #FFF 55%);
-    background-size: 220% 100%;
-    background-position: 100% 50%;
 }
 .usefulLinks-List li a:hover {
-    background-position: 0% 50%;
+    color: #f92816;
 }
-.headphone-white {
+footer .headphone-white {
     width: 60px;
     height: 60px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(255, 255, 255, 0.1);
+    background: #000052;
+}
+footer .headphone-white img {
+    filter: brightness(0) invert(1);
 }
 .head-phone-white-main {
     display: flex;
@@ -1670,34 +1710,50 @@ footer {
     margin-bottom: 18px;
     width: 100%;
 }
+footer .head-phone-white-main>div:last-child {
+    min-width: 0;
+}
 .CallUs {
-    color: var(--8, #A8A9AD);
+    color: #000052;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
 }
 .CallUs-phone p,
 .CallUs-phone {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
     line-height: 24px;
-    word-break: break-word;
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    background-repeat: no-repeat;
+    white-space: nowrap;
+    word-break: normal;
+    color: #000052;
     transition: 0.5s ease-out;
-    background-image: linear-gradient(to right, #f92816 45%, #FFF 55%);
-    background-size: 220% 100%;
-    background-position: 100% 50%;
 }
 .CallUs-phone:hover p,
 .CallUs-phone:hover {
-    background-position: 0% 50%;
+    color: #f92816;
+}
+@media (max-width: 1199px) {
+    .footer-row {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        column-gap: 30px;
+    }
+}
+@media (max-width: 767px) {
+    .footer-row {
+        grid-template-columns: 1fr;
+    }
+    footer .footer-col>.row {
+        column-gap: 22px;
+    }
+    .CallUs-phone p,
+    .CallUs-phone {
+        white-space: normal;
+    }
 }
 .copyright-main {
     padding: 15px 0;
-    background: var(--4, #029fe1);
+    background: var(--4, #000052);
 }
 .rights-reserved {
     display: flex;
@@ -1854,7 +1910,7 @@ button.bottom-top-button:hover {
     padding-left: 0;
 }
 .services-box-about-page ul a {
-    color: var(--4, #029fe1);
+    color: var(--4, #000052);
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
@@ -1896,7 +1952,7 @@ button.bottom-top-button:hover {
     width: 48px;
     height: 48px;
     border-radius: 50%;
-    background: #029fe1;
+    background: #000052;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1933,7 +1989,7 @@ button.bottom-top-button:hover {
     line-height: 30px;
 }
 .contact-team-person p {
-    color: var(--4, #029fe1);
+    color: var(--4, #000052);
     font-weight: 400;
 }
 .contact-team-person p:hover {
@@ -2046,7 +2102,7 @@ button.bottom-top-button:hover {
     margin: 20px 0 60px 0;
 }
 .toggle-label {
-    color: var(--2, #029fe1 );
+    color: var(--2, #000052 );
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
@@ -2132,7 +2188,7 @@ input:checked+.slid-btn:before {
     padding: 30px;
 }
 .plan-body ul li {
-    color: var(--4, #029fe1);
+    color: var(--4, #000052);
     font-size: 18px;
     font-weight: 400;
     line-height: 40px;
@@ -2201,7 +2257,7 @@ input:checked+.slid-btn:before {
 .discount {
     padding: 5px;
     color: #f92816 !important;
-    background-color: #029fe1;
+    background-color: #000052;
 }
 /*-----------------------[ 24.Get Quote Page CSS ]------------------------*/
 #get-quote-bg {
@@ -2239,11 +2295,11 @@ input:checked+.slid-btn:before {
 }
 .testimonials-box-sub {
     padding: 30px;
-    background: #029fe1;
+    background: #000052;
     flex-grow: 1;
 }
 .testimonials-box-sub h2 {
-    color: var(--4, #029fe1);
+    color: var(--4, #000052);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -2510,7 +2566,7 @@ input:checked+.slid-btn:before {
     border: none;
     background: #FFF;
     font-size: 18px;
-    color: #029fe1;
+    color: #000052;
     padding: 10px 20px;
     outline: none;
 }
@@ -2563,7 +2619,7 @@ input:checked+.slid-btn:before {
     color: #000;
 }
 .tellus {
-    color: #029fe1;
+    color: #000052;
 }
 .services-page-row {
     gap: 24px 0;
@@ -2691,7 +2747,7 @@ input:checked+.slid-btn:before {
     z-index: 1;
 }
 .documents-box {
-    background: #029fe1;
+    background: #000052;
     padding: 20px;
 }
 .brochure {
@@ -3149,7 +3205,7 @@ input:checked+.slid-btn:before {
 }
 .search-box-main {
     padding: 20px;
-    background: #029fe1;
+    background: #000052;
 }
 .search-input {
     position: relative;
@@ -3174,7 +3230,7 @@ input:checked+.slid-btn:before {
     outline: none;
     border: none;
     padding: 18px 15px;
-    color: var(--4, #029fe1);
+    color: var(--4, #000052);
     font-family: Outfit;
     font-size: 18px;
     font-style: normal;
@@ -3192,13 +3248,13 @@ input:checked+.slid-btn:before {
     margin-bottom: 20px;
 }
 .recent-post-text-main p {
-    color: var(--4, #029fe1);
+    color: var(--4, #000052);
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
 }
 .recent-post-text-main h2 {
-    color: var(--4, #029fe1);
+    color: var(--4, #000052);
     font-size: 18px;
     font-weight: 600;
     line-height: 27px;
@@ -3263,7 +3319,7 @@ input:checked+.slid-btn:before {
     padding: 30px;
 }
 #contact-page-form input::placeholder {
-    color: #029fe1;
+    color: #000052;
 }
 #contact-page-form input {
     margin-bottom: 20px;
@@ -3272,7 +3328,7 @@ textarea {
     width: 100%;
     height: 120px;
     padding: 15px 20px;
-    color: var(--4, #029fe1);
+    color: var(--4, #000052);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -3282,7 +3338,7 @@ textarea {
     resize: none;
 }
 textarea::placeholder {
-    color: #029fe1;
+    color: #000052;
 }
 .map-section .curved-section {
     padding: 0;
@@ -3352,7 +3408,7 @@ textarea::placeholder {
     justify-content: center;
 }
 .SolidBackground {
-    background: #029fe1 ;
+    background: #000052 ;
 }
 .conta-home.active {
     color: #f92816;

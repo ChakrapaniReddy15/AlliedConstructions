@@ -58,7 +58,7 @@ function Footer() {
                                     <ul className="usefulLinks-List">
                                         <li><Link to="/Contact">Contact Us</Link></li>
                                         <li><Link to="/FaqPage">FAQs</Link></li>
-                                        <li><Link to="/Testimonials">Testimonials</Link></li>
+                                        {/* <li><Link to="/Testimonials">Testimonials</Link></li> */}
                                     </ul>
                                 </div>
                             </div>
@@ -126,7 +126,7 @@ function Footer() {
                 <div className="container">
                     <div className="rights-reserved">
                         <h2>Copyright © {new Date().getFullYear()}. All rights reserved by
-                            <a href="https://piesopic.com" target="_blank" rel="noreferrer"> piesopic.</a>
+                            <a href="/" target="_blank" rel="noreferrer"> PIESOPIX</a>
                         </h2>
                         <div className="home-media-icon-main-head">
                             <a href="https://www.facebook.com/profile.php?id=61585741507466#" target="_blank" rel="noopener noreferrer">
