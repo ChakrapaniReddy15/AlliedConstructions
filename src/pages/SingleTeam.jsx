@@ -14,7 +14,7 @@ import TopRated from '../components/TopRated.jsx';
 const progressItems = [
     { title: "Plumbing", percentage: 74 },
     { title: "Renovation", percentage: 94 },
-    { title: "Cleaning", percentage: 86 },
+    { title: "Site Quality", percentage: 86 },
     { title: "Electrical", percentage: 70 },
 ];
 

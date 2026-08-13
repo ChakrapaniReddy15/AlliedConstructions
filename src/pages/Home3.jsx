@@ -12,7 +12,6 @@ import AboutSecSvg2 from '../assets/images/svg/about-sec-svg2.svg';
 import AboutSecSvg3 from '../assets/images/svg/about-sec-svg3.svg';
 import AboutSecSvg4 from '../assets/images/svg/about-sec-svg4.svg';
 import HeadphoneSvg from '../assets/images/svg/headphone.svg';
-import calendarSvg from '../assets/images/svg/calendar.svg';
 import TeamImg1 from '../assets/images/team-page/team-img1.jpg';
 import TeamImg2 from '../assets/images/team-page/team-img2.jpg';
 import TeamImg3 from '../assets/images/team-page/team-img3.jpg';
@@ -171,7 +170,7 @@ const Home = () => {
             <section className="section-seven">
                 <FreeContact />
             </section>
-            <section className="section-eight">
+            {/* <section className="section-eight">
                 <div className="container">
                     <div className="quality-main ourProcess fade_down">
                         <p className="quality">our teams</p>
@@ -211,7 +210,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
             <section className="curved-section">
                 <TopRated />
             </section>

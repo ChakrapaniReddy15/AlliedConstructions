@@ -18,8 +18,6 @@ import NotFound from './pages/NotFound.jsx';
 import PlumbingService from './pages/PlumbingService.jsx';
 import RoofingService from './pages/RoofingService.jsx';
 import CarpentryService from './pages/CarpentryService.jsx';
-import CleaningService from './pages/CleaningService.jsx';
-import AirConditionService from './pages/AirConditionService.jsx';
 import PaintingService from './pages/PaintingService.jsx';
 import ElectricalService from './pages/ElectricalService.jsx';
 import SolarService from './pages/SolarService.jsx';
@@ -99,18 +97,6 @@ function App() {
           <Route path="/CarpentryService" element={
             <MainLayout>
               <CarpentryService />
-            </MainLayout>
-          }
-          />
-          <Route path="/CleaningService" element={
-            <MainLayout>
-              <CleaningService />
-            </MainLayout>
-          }
-          />
-          <Route path="/AirConditionService" element={
-            <MainLayout>
-              <AirConditionService />
             </MainLayout>
           }
           />

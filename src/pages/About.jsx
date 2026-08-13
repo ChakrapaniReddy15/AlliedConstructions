@@ -15,7 +15,6 @@ import TeamImg1 from '../assets/images/team-page/team-img1.jpg';
 import TeamImg2 from '../assets/images/team-page/team-img2.jpg';
 import TeamImg3 from '../assets/images/team-page/team-img3.jpg';
 import TeamImg4 from '../assets/images/team-page/team-img4.jpg';
-import calendarSvg from '../assets/images/svg/calendar.svg';
 import OurProcess from '../components/OurProcess.jsx';
 import TopRated from '../components/TopRated.jsx';
 import TeamSocialMedia from '../components/TeamSocialMedia.jsx';
@@ -135,12 +134,10 @@ const About = () => {
                                 <li><Link to="/PlumbingService">Plumbing Service</Link></li>
                                 <li><Link to="/RoofingService">Roofing Service</Link></li>
                                 <li><Link to="/CarpentryService">Carpentry Service</Link></li>
-                                <li><Link to="/CleaningService">Cleaning Service</Link></li>
                                 <li><Link to="/PaintingService">Painting Service</Link></li>
                             </ul>
                             <ul>
                                 <li><Link to="/ElectricalService">Electrical Service</Link></li>
-                                <li><Link to="/AirConditionService">Air Condition Service</Link></li>
                                 <li><Link to="/SolarService">Solar Service</Link></li>
                                 <li><Link to="/WeldingService">Welding Service</Link></li>
                             </ul>
@@ -149,7 +146,7 @@ const About = () => {
                 </div>
             </section>
             {/* <!-- ====================================== Section Eight ===================================== --> */}
-            <section className="section-eight" >
+            {/* <section className="section-eight" >
                 <div className="container">
                     <div className="quality-main ourProcess fade_down">
                         <p className="quality">our teams</p>
@@ -217,7 +214,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
             {/* <!-- ====================================== Section Nine ===================================== --> */}
             <section className="curved-section">
                 <TopRated />

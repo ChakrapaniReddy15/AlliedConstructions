@@ -36,21 +36,19 @@ const Projects = () => {
                             clear planning, careful site work, quality checks, and a clean finish.
                         </p>
                     </div>
-                    <div className="row project-page-row">
-                        {[0, 1, 2].map((columnIndex) => (
-                            <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 project-page-col" key={columnIndex}>
-                                {projects.filter((_, index) => index % 3 === columnIndex).map((project, index) => (
-                                    <div className="img-wrapper" key={project.slug}>
-                                        <img className={index % 2 === 0 ? 'estimate-img' : ''} src={project.image} alt={project.title} />
-                                        <div className="overlay"></div>
-                                        <div className="overlay-text">
-                                            <p>{project.title}</p>
-                                            <Link to={`/Projects/${project.slug}`} className="view-details-btn">View Details
-                                                <img src={ArrowCrossSvg} alt="arrow-cross" />
-                                            </Link>
-                                        </div>
-                                    </div>
-                                ))}
+                    <div className="project-page-row">
+                        {projects.map((project) => (
+                            <div className="img-wrapper project-page-card" key={project.slug}>
+                                <img className="project-page-img" src={project.image} alt={project.title} />
+                                <div className="overlay"></div>
+                                <div className="overlay-text project-page-overlay-text">
+                                    <span>{project.category}</span>
+                                    <p>{project.title}</p>
+                                    <small>{project.location}</small>
+                                    <Link to={`/Projects/${project.slug}`} className="view-details-btn">View Details
+                                        <img src={ArrowCrossSvg} alt="arrow-cross" />
+                                    </Link>
+                                </div>
                             </div>
                         ))}
                     </div>

@@ -71,13 +71,12 @@ function Footer() {
                                         <li><Link to="/PlumbingService">Plumbing</Link></li>
                                         <li><Link to="/RoofingService">Roofing</Link></li>
                                         <li><Link to="/CarpentryService">Carpentry</Link></li>
-                                        <li><Link to="/CleaningService">Cleaning</Link></li>
+                                        <li><Link to="/PaintingService">Painting</Link></li>
                                     </ul>
                                 </div>
                                 <div className="col-6">
                                     <ul className="usefulLinks-List">
                                         <li><Link to="/ElectricalService">Electrical</Link></li>
-                                        <li><Link to="/AirConditionService">Air Condition</Link></li>
                                         <li><Link to="/SolarService">Solar</Link></li>
                                         <li><Link to="/WeldingService">Welding</Link></li>
                                     </ul>

@@ -23,7 +23,7 @@ const Faq = () => {
                             alt="interior design work"
                         />
                         <div className="yerOfExperi">
-                            <h2>12+</h2>
+                            <h2>28+</h2>
                             <p>Years of Experience</p>
                         </div>
                     </div>

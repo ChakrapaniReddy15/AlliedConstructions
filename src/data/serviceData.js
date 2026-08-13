@@ -13,16 +13,6 @@ import CarpentryBanner from '../assets/images/Service Page Images/Carpenter Serv
 import CarpentryContent from '../assets/images/Service Page Images/Carpenter Services/carpenter-content-image.jpg';
 import CarpentryMiddle1 from '../assets/images/Service Page Images/Carpenter Services/carpenter-middle-content-image1.jpg';
 import CarpentryMiddle2 from '../assets/images/Service Page Images/Carpenter Services/carpenter-middle-content-image2.jpg';
-import CleaningHome from '../assets/images/Service Page Images/Cleaning Services/cleaning-home-page-image.jpg';
-import CleaningBanner from '../assets/images/Service Page Images/Cleaning Services/cleaning-banner-image.jpg';
-import CleaningContent from '../assets/images/Service Page Images/Cleaning Services/cleaning-content-image.jpg';
-import CleaningMiddle1 from '../assets/images/Service Page Images/Cleaning Services/cleaning-middle-content-image1.jpg';
-import CleaningMiddle2 from '../assets/images/Service Page Images/Cleaning Services/cleaning-middle-content-image2.jpg';
-import AirHome from '../assets/images/Service Page Images/Air Conditioner Services/air-conditioner-home-image.jpg';
-import AirBanner from '../assets/images/Service Page Images/Air Conditioner Services/air-conditioner-banner-image.jpg';
-import AirContent from '../assets/images/Service Page Images/Air Conditioner Services/air-conditioner-content-image.jpg';
-import AirMiddle1 from '../assets/images/Service Page Images/Air Conditioner Services/air-conditioner-middle-content-image1.jpg';
-import AirMiddle2 from '../assets/images/Service Page Images/Air Conditioner Services/air-conditioner-middle-content-image2.jpg';
 import PaintingHome from '../assets/images/Service Page Images/Painting Services/painting-home-page-image.jpg';
 import PaintingBanner from '../assets/images/Service Page Images/Painting Services/painting-banner-image.jpg';
 import PaintingContent from '../assets/images/Service Page Images/Painting Services/painting-content-image.jpg';
@@ -46,8 +36,6 @@ import WeldingMiddle2 from '../assets/images/Service Page Images/Welding Service
 import PlumbingSvg from '../assets/images/svg/plumbing.svg';
 import RoofingSvg from '../assets/images/svg/roofing.svg';
 import CarpentrySvg from '../assets/images/svg/carpentry.svg';
-import CleaningSvg from '../assets/images/svg/cleaning.svg';
-import AirConditionSvg from '../assets/images/svg/airCondition.svg';
 import PaintingSvg from '../assets/images/svg/painting.svg';
 import ElectricalSvg from '../assets/images/svg/electrical.svg';
 import SolarSvg from '../assets/images/svg/solar.svg';
@@ -107,42 +95,6 @@ export const services = [
         checklist: ['Custom cabinets and storage units', 'Door, frame, and partition work', 'Modular and site-built interior woodwork', 'Hardware fitting and alignment checks', 'Repair and finishing support'],
         closingTitle: 'Made to fit the room, not fight it.',
         closing: 'Good carpentry should feel natural in the space, offer useful storage, and hold up through everyday use.'
-    },
-    {
-        key: 'cleaning',
-        title: 'Cleaning Solutions',
-        pageTitle: 'Cleaning Service',
-        route: '/CleaningService',
-        label: 'CLEANING',
-        icon: CleaningSvg,
-        images: { home: CleaningHome, banner: CleaningBanner, content: CleaningContent, middle1: CleaningMiddle1, middle2: CleaningMiddle2 },
-        summary: 'Deep cleaning and post-construction cleaning before the space is used.',
-        introTitle: 'Cleaning support that prepares spaces for use.',
-        intro: 'Allied Constructions offers cleaning for completed construction work, renovations, and used spaces that need a refresh. We remove dust, debris, marks, and site waste so the space is ready to use.',
-        details: 'We clean at the right project stage, protect finished areas, and clear dust from floors, fixtures, glass, hardware, and utility areas.',
-        secondaryTitle: 'A cleaner space after the hard work is done.',
-        secondary: 'Post-construction cleaning helps the final work look clear and makes move-ins or client reviews easier.',
-        checklist: ['Post-construction dust and debris removal', 'Floor, glass, and fixture cleaning', 'Kitchen, bathroom, and utility-area cleaning', 'Paint and surface cleanup', 'Final cleaning before use'],
-        closingTitle: 'The finishing step that makes quality visible.',
-        closing: 'Clean spaces help clients see the workmanship clearly and start using the property with confidence.'
-    },
-    {
-        key: 'air',
-        title: 'Air Condition Solutions',
-        pageTitle: 'Air Condition Service',
-        route: '/AirConditionService',
-        label: 'AIR CONDITION',
-        icon: AirConditionSvg,
-        images: { home: AirHome, banner: AirBanner, content: AirContent, middle1: AirMiddle1, middle2: AirMiddle2 },
-        summary: 'AC planning, installation, service, and repair support for comfortable rooms.',
-        introTitle: 'Air-conditioning support for comfortable, efficient spaces.',
-        intro: 'Allied Constructions handles air-conditioning work for homes, offices, and interiors. We plan unit placement, service access, drainage, electrical support, and installation steps.',
-        details: 'The goal is clean installation with better cooling performance, neat routing, and reduced disruption to finished interiors.',
-        secondaryTitle: 'Comfort systems planned with the full project in mind.',
-        secondary: 'We plan AC work with ceiling, electrical, wall, and furniture layouts so cooling systems fit neatly into the completed space.',
-        checklist: ['AC point planning and installation support', 'Indoor and outdoor unit placement', 'Drain and copper-line route checks', 'Service and repair support', 'Final cooling and leakage checks'],
-        closingTitle: 'Comfort without messy work.',
-        closing: 'Well-planned AC work protects the interior finish while keeping rooms comfortable and easy to maintain.'
     },
     {
         key: 'painting',
