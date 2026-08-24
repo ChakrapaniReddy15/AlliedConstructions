@@ -25,7 +25,7 @@
         bottom: -36px;
         left: -33px;
     }
-    .Handyman-main-text {
+    .AlliedConstruction-main-text {
         font-size: 60px;
         line-height: 70px;
         padding-top: 20px;
@@ -150,7 +150,7 @@
     }
     .menu-list a {
         justify-content: space-between;
-        color: #029fe1;
+        color: #000052;
     }
     .conta-home {
         border-top: 1px solid #ffffff30;
@@ -273,7 +273,7 @@
         margin-left: 0;
         justify-content: center;
     }
-    .handyman-text {
+    .alliedconstruction-text {
         font-size: 40px;
         line-height: 55px;
     }
@@ -397,11 +397,11 @@
     .background-img-slider-SecOne {
         padding: 70px 0 110px;
     }
-    .Handyman-main-text {
+    .AlliedConstruction-main-text {
         font-size: 55px;
         line-height: 65px;
     }
-    .handyman-text {
+    .alliedconstruction-text {
         font-size: 34px;
         line-height: 45px;
         padding-top: 15px;
@@ -428,7 +428,7 @@
     .about-qulity-main {
         justify-content: center;
     }
-    .handyman-services-textMain {
+    .alliedconstruction-services-textMain {
         display: flex;
         align-items: center;
         gap: 10px;
@@ -473,6 +473,19 @@
     }
     .img-group-estimate-main {
         gap: 20px;
+    }
+    .project-home-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 18px;
+        margin-top: 30px;
+    }
+    .project-home-card,
+    .project-home-img {
+        height: 360px;
+    }
+    .project-home-overlay-text p {
+        font-size: 19px;
+        line-height: 27px;
     }
     .img-group-estimate2 {
         gap: 20px;
@@ -558,6 +571,12 @@
     }
     footer {
         padding: 50px 0;
+    }
+    .footer-col {
+        align-items: flex-start;
+    }
+    .morbi {
+        max-width: 420px;
     }
     .page-img-header {
         padding: 70px 0;
@@ -683,13 +702,22 @@
         line-height: 30px;
     }
     .project-page-row {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
         margin-top: 30px;
-        justify-content: center;
-        gap: 20px 0;
+        gap: 20px;
         text-align: center;
     }
     .project-detail-box {
         margin: 30px auto;
+    }
+    .project-detail-main-img {
+        max-height: 360px;
+    }
+    .project-detail-gallery {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .project-detail-gallery img {
+        max-height: 260px;
     }
     .singleProject-img3 {
         margin-bottom: 30px;
@@ -756,7 +784,7 @@
         font-size: 16px;
         padding: 8px;
     }
-    .Handyman-main-text {
+    .AlliedConstruction-main-text {
         font-size: 50px;
         line-height: 60px;
         padding-bottom: 15px;
@@ -821,6 +849,24 @@
         flex-direction: column;
         margin-top: 20px;
     }
+    .project-home-grid {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 18px;
+        margin-top: 25px;
+    }
+    .project-page-row {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+    .project-page-overlay-text span,
+    .project-page-overlay-text small {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .project-home-card,
+    .project-home-img {
+        height: 300px;
+    }
     .overlay-text p {
         margin-bottom: 10px;
     }
@@ -854,7 +900,7 @@
     .useful-link-text {
         font-size: 22px;
         line-height: 36px;
-        margin-top: 10px;
+        margin-top: 0;
         margin-bottom: 10px;
     }
     .usefulLinks-List li {
@@ -1010,6 +1056,13 @@
         width: 40px;
         height: 40px;
     }
+    .whatsapp-floating-button {
+        right: 20px;
+        bottom: 74px;
+        width: 44px;
+        height: 44px;
+        font-size: 12px;
+    }
 }
 @media (max-width: 575px) {
     .small-header {
@@ -1023,7 +1076,7 @@
     .background-img-slider-SecOne {
         padding: 50px 0 110px;
     }
-    .Handyman-main-text {
+    .AlliedConstruction-main-text {
         font-size: 40px;
         line-height: 50px;
         padding-bottom: 10px;
@@ -1035,7 +1088,7 @@
         position: sticky;
         top: 0;
     }
-    .handyman-text {
+    .alliedconstruction-text {
         font-size: 26px;
         line-height: 35px;
         padding-top: 10px;
@@ -1193,6 +1246,25 @@
         margin: 20px auto;
         padding: 20px;
     }
+    .project-detail-main-img {
+        max-height: 280px;
+        margin-bottom: 25px;
+    }
+    .project-detail-gallery {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 18px;
+        margin: 24px 0;
+    }
+    .project-detail-gallery img {
+        max-height: 220px;
+    }
+    .project-image-preview {
+        padding: 16px;
+    }
+    .project-image-preview-close {
+        top: 10px;
+        right: 10px;
+    }
     #contact-page-form input {
         height: 50px;
     }
@@ -1225,7 +1297,7 @@
     }
 }
 @media (max-width: 400px) {
-    .Handyman-main-text {
+    .AlliedConstruction-main-text {
         font-size: 32px;
         line-height: 40px;
         padding-bottom: 10px;

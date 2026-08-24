@@ -2,7 +2,7 @@ import React from 'react'
 import registerImg from '../assets/images/svg/register.svg';
 import inspectImg from '../assets/images/svg/inspect.svg';
 import workProcessImg from '../assets/images/svg/workProcess.svg';
-import handoverImg from '../assets/images/svg/handover.svg';
+import completionImg from '../assets/images/svg/handover.svg';
 
 const OurProcess = () => {
     return (
@@ -12,10 +12,10 @@ const OurProcess = () => {
                     <div className="quality-main ourProcess fade_down">
                         <p className="quality">our process</p>
                     </div>
-                    <h2 className="handyman-text quick fade_down">Easy quick following steps</h2>
+                    <h2 className="alliedconstruction-text quick fade_down">Easy quick following steps</h2>
                     <p className="fusce malesuada elementum fade_down">
-                        Our streamlined process ensures clarity, quality, and timely delivery—from initial consultation
-                        and design planning to construction execution and final handover.
+                        Our process keeps every step clear, from the first discussion and design plan to construction work
+                        and final completion.
                     </p>
                     <div className="row step-box-row">
                         <div className="col-xxl-3 col-xl-3 col-lg-6 col-md-6">
@@ -28,7 +28,7 @@ const OurProcess = () => {
                                     <h2 className="Register-text">Project Consultation</h2>
                                     <p className="proin">
                                         We begin by understanding your requirements, site conditions, and budget to define the project
-                                        scope, layout expectations, and design direction.
+                                        work needed, layout expectations, and design direction.
                                     </p>
 
                                 </div>
@@ -60,7 +60,7 @@ const OurProcess = () => {
                                     <h2 className="Register-text">Build Execution</h2>
                                     <p className="proin">
                                         With approved designs in place, our team executes construction and interior work using quality
-                                        materials, skilled craftsmanship, and continuous supervision.
+                                        materials, skilled work, and regular site checks.
                                     </p>
 
                                 </div>
@@ -71,7 +71,7 @@ const OurProcess = () => {
                                 <div className="number-circel">4</div>
                                 <div className="steps-box">
                                     <div className="register-img-main">
-                                        <img className="register" src={handoverImg} alt="handover" />
+                                        <img className="register" src={completionImg} alt="final completion" />
                                     </div>
                                     <h2 className="Register-text">Final Handover</h2>
                                     <p className="proin">

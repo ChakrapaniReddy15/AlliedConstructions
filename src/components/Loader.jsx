@@ -19,13 +19,25 @@ const Loader = () => {
             <div className="page-loader">
                 <img src={LoaderGif} alt="loader" />
                 <div className="loading">
-                    <span>H</span>
                     <span>A</span>
-                    <span>N</span>
+                    <span>L</span>
+                    <span>L</span>
+                    <span>I</span>
+                    <span>E</span>
                     <span>D</span>
-                    <span>Y</span>
-                    <span>M</span>
-                    <span>A</span>
+                </div>
+                <div className="loading loading-subtitle">
+                    <span>C</span>
+                    <span>O</span>
+                    <span>N</span>
+                    <span>S</span>
+                    <span>T</span>
+                    <span>R</span>
+                    <span>U</span>
+                    <span>C</span>
+                    <span>T</span>
+                    <span>I</span>
+                    <span>O</span>
                     <span>N</span>
                 </div>
             </div>

@@ -20,10 +20,10 @@ const Faq = () => {
                         <img
                             className="installation-img2 img-animation-style2 reveal"
                             src={InstallationImg2}
-                            alt="interior-design-execution"
+                            alt="interior design work"
                         />
                         <div className="yerOfExperi">
-                            <h2>12+</h2>
+                            <h2>28+</h2>
                             <p>Years of Experience</p>
                         </div>
                     </div>
@@ -34,11 +34,11 @@ const Faq = () => {
                             <p className="quality">ARCHITECTURE & CONSTRUCTION</p>
                         </div>
 
-                        <h2 className="handyman-text fade_down">Frequently asked questions</h2>
+                        <h2 className="alliedconstruction-text fade_down">Frequently asked questions</h2>
 
                         <p className="fusce fade_down">
-                            Get clear answers to common questions about layout planning, architectural design,
-                            construction execution, and interior finishing. We guide you through every stage
+                            Get clear answers to common questions about layout planning, building design,
+                            construction work, and interior finishing. We guide you through every stage
                             of the building process with clarity and confidence.
                         </p>
 
@@ -95,7 +95,7 @@ const Faq = () => {
                                     <div className="accordion-body">
                                         We combine creative architectural concepts with strong structural planning.
                                         All designs follow approved standards and engineering practices to ensure
-                                        safety, durability, and long-term performance.
+                                        safety, strength, and long-lasting use.
                                     </div>
                                 </div>
                             </div>
@@ -122,7 +122,7 @@ const Faq = () => {
                                 >
                                     <div className="accordion-body">
                                         Quality is ensured through skilled workmanship, certified materials,
-                                        continuous site supervision, and strict quality checks at every construction stage.
+                                        regular site checks and strict quality checks at every construction stage.
                                     </div>
                                 </div>
                             </div>
@@ -149,7 +149,7 @@ const Faq = () => {
                                 >
                                     <div className="accordion-body">
                                         Yes, we provide end-to-end interior solutions including space planning,
-                                        modular furniture, material selection, lighting design, and premium finishes
+                                        modular furniture, material selection, lighting design, and quality finishes
                                         that enhance both comfort and aesthetics.
                                     </div>
                                 </div>

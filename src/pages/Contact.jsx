@@ -1,16 +1,44 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import HeadphoneWhite from '../assets/images/svg/headphone-white.svg';
 import EmailWhite from '../assets/images/svg/email-White.svg';
 import LoactionWhite from '../assets/images/svg/loaction-white.svg';
 import facebookSvg from '../assets/images/svg/facebook.svg';
-import TwiiterSvg from '../assets/images/svg/twiiter.svg';
 import InstaSvg from '../assets/images/svg/insta.svg';
 import LinkdienSvg from '../assets/images/svg/linkdien.svg';
 import RightArrowSvg from "../assets/images/svg/right-arrow-svg.svg";
 import Faq from '../components/Faq.jsx';
 
 const Contact = () => {
+    const [formData, setFormData] = useState({
+        name: '',
+        phone: '',
+        email: '',
+        message: '',
+    });
+
+    const handleChange = (event) => {
+        const { name, value } = event.target;
+        setFormData((currentData) => ({
+            ...currentData,
+            [name]: value,
+        }));
+    };
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        const subject = `Allied Construction Enquiry from ${formData.name}`;
+        const body = [
+            `Name: ${formData.name}`,
+            `Phone: ${formData.phone}`,
+            `Email: ${formData.email}`,
+            '',
+            `Message: ${formData.message}`,
+        ].join('\n');
+
+        window.location.href = `mailto:alliedconstructionshyd@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    };
+
     return (
         <div>
             {/* <!-- ====================================== Section One ===================================== --> */}
@@ -32,11 +60,10 @@ const Contact = () => {
                         <div className="quality-main about-qulity-main fade_down">
                             <p className="quality">CONTACT OUR EXPERTS</p>
                         </div>
-                        <h2 className="handyman-text handyman-services project-page-heading fade_down">Reach Out & Connect
+                        <h2 className="alliedconstruction-text alliedconstruction-services project-page-heading fade_down">Reach Out & Connect
                         </h2>
                         <div className="col-xxl-6 col-xl-6 col-lg-6">
-                            <p className="fusce malesuada tellus fade_down mt-0">Volutpat et malesuada maecenas amet. Ultrices
-                                volutpat auctor euismod eget pulvinar nulla porttitor.
+                            <p className="fusce malesuada tellus fade_down mt-0">Talk to Allied Construction about painting, solar, renovation, waterproofing, and complete construction requirements in Hyderabad.
                             </p>
                             <div className="contact-head-main">
                                 <div className="head-phone-white-main contact-deatils-head">
@@ -45,8 +72,8 @@ const Contact = () => {
                                     </div>
                                     <div>
                                         <p className="CallUs">Call Us</p>
-                                        <Link to="tel:+1(248)3578866" className="CallUs-phone">
-                                            <p>+1 (248) 357 8866</p>
+                                        <Link to="tel:+919347111242" className="CallUs-phone">
+                                            <p>+91-9347111242</p>
                                         </Link>
                                     </div>
                                 </div>
@@ -56,8 +83,8 @@ const Contact = () => {
                                     </div>
                                     <div>
                                         <p className="CallUs">Email Us</p>
-                                        <Link to="mailto:contact@home.rakshak.com" className="CallUs-phone">
-                                            <p>contact@home.rakshak.com</p>
+                                        <Link to="mailto:alliedconstructionshyd@gmail.com" className="CallUs-phone">
+                                            <p>alliedconstructionshyd@gmail.com</p>
                                         </Link>
                                     </div>
                                 </div>
@@ -67,27 +94,22 @@ const Contact = () => {
                                     </div>
                                     <div>
                                         <p className="CallUs">Find Us</p>
-                                        <p className="CallUs-phone">2972 Westheimer 96 Rd. Mexico</p>
+                                        <p className="CallUs-phone">Hyderabad, Telangana</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="home-media-icon-main-head" id="conat-media-icon-main-head">
-                                <a href="https://www.facebook.com">
+                                <a href="https://www.facebook.com/profile.php?id=61585741507466#" target="_blank" rel="noreferrer">
                                     <div className="home-media-icon-main">
                                         <img src={facebookSvg} alt="home-fb-icon" />
                                     </div>
                                 </a>
-                                <a href="https://x.com">
-                                    <div className="home-media-icon-main">
-                                        <img src={TwiiterSvg} alt="home-tw-icon" />
-                                    </div>
-                                </a>
-                                <a href="https://www.instagram.com">
+                                <a href="https://www.instagram.com/allied_constructions_hyd/" target="_blank" rel="noreferrer">
                                     <div className="home-media-icon-main">
                                         <img src={InstaSvg} alt="home-insta-icon" />
                                     </div>
                                 </a>
-                                <a href="https://www.linkedin.com">
+                                <a href="https://www.linkedin.com/in/allied-construction-hyd-78bbb03a3/" target="_blank" rel="noreferrer">
                                     <div className="home-media-icon-main">
                                         <img src={LinkdienSvg} alt="home-be-icon" />
                                     </div>
@@ -95,29 +117,29 @@ const Contact = () => {
                             </div>
                         </div>
                         <div className="col-xxl-6 col-xl-6 col-lg-6">
-                            <div className="search-box-main" id="contact-page-form">
+                            <form className="search-box-main" id="contact-page-form" onSubmit={handleSubmit}>
                                 <div className="search-input">
-                                    <input type="text" placeholder="Your Name*" />
+                                    <input type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Your Name*" required />
                                 </div>
                                 <div className="search-input">
-                                    <input type="text" placeholder="Your Phone Number*" />
+                                    <input type="tel" name="phone" value={formData.phone} onChange={handleChange} placeholder="Your Phone Number*" required />
                                 </div>
                                 <div className="search-input">
-                                    <input type="email" placeholder="Your Email*" />
+                                    <input type="email" name="email" value={formData.email} onChange={handleChange} placeholder="Your Email*" required />
                                 </div>
                                 <div className="search-input">
-                                    <textarea placeholder="Message Here..."></textarea>
+                                    <textarea name="message" value={formData.message} onChange={handleChange} placeholder="Message Here..." required></textarea>
                                 </div>
                                 <div className="Submit mb-0">
-                                    <Link to="#" className="btn-main btn2">Contact Us
+                                    <button type="submit" className="btn-main btn2">Contact Us
                                         <span className="arrow-section">
                                             <img className="arrow" src={RightArrowSvg} alt="right-arrow-svg" />
                                         </span>
                                         <div className="btn-box-left btn2"></div>
                                         <div className="btn-box-right btn2"></div>
-                                    </Link>
+                                    </button>
                                 </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -127,7 +149,8 @@ const Contact = () => {
                 <h2 className="d-none">hidden</h2>
                 <div className="curved-section">
                     <iframe className="map-iframe"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11661.278162829134!2d-76.16113884753138!3d43.0557465765357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f3add89232d3%3A0x516c4febad79a023!2sNear%20Northeast%2C%20Syracuse%2C%20NY%2013203%2C%20USA!5e0!3m2!1sen!2sin!4v1704092010021!5m2!1sen!2sin"
+                        src="https://www.google.com/maps?q=Hyderabad%2C%20Telangana&output=embed"
+                        title="Allied Construction Hyderabad location"
                         allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade">
                     </iframe>
                 </div>
@@ -141,4 +164,3 @@ const Contact = () => {
 }
 
 export default Contact
-

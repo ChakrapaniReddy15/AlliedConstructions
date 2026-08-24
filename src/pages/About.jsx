@@ -15,7 +15,6 @@ import TeamImg1 from '../assets/images/team-page/team-img1.jpg';
 import TeamImg2 from '../assets/images/team-page/team-img2.jpg';
 import TeamImg3 from '../assets/images/team-page/team-img3.jpg';
 import TeamImg4 from '../assets/images/team-page/team-img4.jpg';
-import calendarSvg from '../assets/images/svg/calendar.svg';
 import OurProcess from '../components/OurProcess.jsx';
 import TopRated from '../components/TopRated.jsx';
 import TeamSocialMedia from '../components/TeamSocialMedia.jsx';
@@ -42,11 +41,11 @@ const About = () => {
             <section className="section-two">
                 <div className="container">
                     <div className="quality-main about-qulity-main fade_down">
-                        <p className="quality">24/7 HASSLE-FREE</p>
+                        <p className="quality">allied construction support</p>
                     </div>
                     <div className="row">
                         <div className="col-xxl-6 col-xl-6 col-lg-6">
-                            <h2 className="handyman-text fade_down">Home and Businesses Installation Services</h2>
+                            <h2 className="alliedconstruction-text fade_down">Construction and renovation services for homes and businesses</h2>
                             <div className="about-sec-img-main">
                                 <img className="about-sec-img1 img-animation-style1 reveal" id="about-sec-img1"
                                     src={AboutSecImg4} alt="about-sec-img4" />
@@ -56,7 +55,7 @@ const About = () => {
                                     </div>
                                     <div className="call-info-book">
                                         <p>Call For Booking</p>
-                                        <a href="tel:+12483578866">+1 (248) 357 8866</a>
+                                            <a href="tel:+919347111242">+91-9347111242</a>
                                     </div>
                                 </div>
                                 <img className="about-sec-img2 img-animation-style2 reveal"
@@ -66,9 +65,9 @@ const About = () => {
                             </div>
                         </div>
                         <div className="col-xxl-6 col-xl-6 col-lg-6">
-                            <p className="fusce fade_down">Dignissim fusce eget magna non feugiat id at rhoncus. Morbi cras varius
-                                pellentesque faucibus consectetur amet nulla sit. Nulla dolor adipiscing mi massa pellentesque
-                                tempor vestibulum augue facilisis.
+                            <p className="fusce fade_down">Allied Constructions brings planning, site work, and finishing together
+                                for homes and commercial spaces. We focus on dependable work, clear communication, and clean
+                                project completion.
                             </p>
                             <div className="row highQulity-box-row2 highQulity-box-row overflow-hidden">
                                 <div className="col-xxl-12 p-0">
@@ -77,35 +76,30 @@ const About = () => {
                                             <img src={AboutSecSvg1} alt="about-sec-svg1" />
                                             <p className="highQulity">High Quality Work</p>
                                         </div>
-                                        <p className="semper">Consectetur scelerisque imperdiet turpis proin fames non egestas
-                                            egestas ut. Tincidunt amet amet urna auctor tortor id ante augue.</p>
+                                        <p className="semper">We follow proven construction practices and keep quality checks active through each project stage.</p>
                                     </div>
                                     <div className="highQulity-box highQulity-box2 fade_right">
                                         <div className="qulity-work-grp">
                                             <img src={AboutSecSvg3} alt="about-sec-svg1" />
-                                            <p className="highQulity">Customized Solution</p>
+                                            <p className="highQulity">Custom Plan</p>
                                         </div>
-                                        <p className="semper">Cursus suspendisse lectus etiam ut egestas. In pellentesque senectus
-                                            purus lectus lobortis cursus consequat. Lacus hendrerit venenatis egestas sed.</p>
+                                        <p className="semper">Every plan is shaped around your site, budget, timeline, and daily-use requirements.</p>
                                     </div>
                                 </div>
                                 <div className="col-xxl-12 p-0">
                                     <div className="highQulity-box fade_left">
                                         <div className="qulity-work-grp">
                                             <img src={AboutSecSvg2} alt="about-sec-svg2" />
-                                            <p className="highQulity">Smart Repair System</p>
+                                            <p className="highQulity">Clear Work Process</p>
                                         </div>
-                                        <p className="semper">Gravida tempor scelerisque scelerisque felis id metus tincidunt.
-                                            Sollicitudin justo ut nec fermentum arcu nunc blandit egestas nec eu magna aliquet
-                                            sed dictum dui.</p>
+                                        <p className="semper">We plan civil, electrical, plumbing, carpentry, painting, and finishing work to reduce rework.</p>
                                     </div>
                                     <div className="highQulity-box highQulity-box2 fade_left">
                                         <div className="qulity-work-grp">
                                             <img src={AboutSecSvg4} alt="about-sec-svg1" />
                                             <p className="highQulity">Affordable Pricing</p>
                                         </div>
-                                        <p className="semper">Cursus sapien diam dolor ultrices mauris. Accumsan pellentesque semper
-                                            egestas ac commodo. Fermentum cursus eu cursus non scelerisque nisl tempor.</p>
+                                        <p className="semper">Clear estimates and practical material choices help keep the project aligned with your goals.</p>
                                     </div>
                                 </div>
                             </div>
@@ -127,12 +121,12 @@ const About = () => {
                             <img className="image29 img-animation-style4 reveal" src={AboutImage29} alt="image29" />
                         </div>
                     </div>
-                    <h3 className="tackle">We're your trusted handyman service, here to tackle those home repairs and improvement
-                        projects. Our skilled professionals handle everything from leaky faucets to furniture assembly, so you
-                        can relax and enjoy your home.</h3>
+                    <h3 className="tackle">We are your trusted Allied Construction team for new construction, renovations,
+                        repairs, and finishing work. Our skilled team manages the details so your project moves
+                        clearly from planning to completion.</h3>
                     <div className="row  whatWeRow">
                         <div className="col-xxl-6 col-xl-6 col-lg-5 whatWe">
-                            <h3>Something What We Do</h3>
+                            <h3>What We Do</h3>
                             <img src={ArrowImg} alt="arrow-img" />
                         </div>
                         <div className="col-xxl-6 col-xl-6 col-lg-7 services-box-about-page">
@@ -140,12 +134,10 @@ const About = () => {
                                 <li><Link to="/PlumbingService">Plumbing Service</Link></li>
                                 <li><Link to="/RoofingService">Roofing Service</Link></li>
                                 <li><Link to="/CarpentryService">Carpentry Service</Link></li>
-                                <li><Link to="/CleaningService">Cleaning Service</Link></li>
                                 <li><Link to="/PaintingService">Painting Service</Link></li>
                             </ul>
                             <ul>
                                 <li><Link to="/ElectricalService">Electrical Service</Link></li>
-                                <li><Link to="/AirConditionService">Air Condition Service</Link></li>
                                 <li><Link to="/SolarService">Solar Service</Link></li>
                                 <li><Link to="/WeldingService">Welding Service</Link></li>
                             </ul>
@@ -154,14 +146,14 @@ const About = () => {
                 </div>
             </section>
             {/* <!-- ====================================== Section Eight ===================================== --> */}
-            <section className="section-eight" >
+            {/* <section className="section-eight" >
                 <div className="container">
                     <div className="quality-main ourProcess fade_down">
                         <p className="quality">our teams</p>
                     </div>
-                    <h2 className="handyman-text legal fade_down">Experienced legal team</h2>
-                    <p className="fusce elementum fade_down">Tellus nisl ultricies urna proin mauris massa urna. Magna sagittis
-                        sagittis pharetra egestas eleifend posuere felis magna. Vitae vestibulum platea purus magnis pretium.
+                    <h2 className="alliedconstruction-text legal fade_down">Experienced construction team</h2>
+                    <p className="fusce elementum fade_down">Our team combines site experience, skilled workers, and finishing
+                        care to deliver reliable construction results.
                     </p>
                     <div className="row ourTeam-Row">
                         <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 ourTeam-Col">
@@ -170,7 +162,7 @@ const About = () => {
                                 <Link to="/SingleTeam">
                                     <div className="team-mem-details">
                                         <h2>Kevin Martin</h2>
-                                        <p>carpenter</p>
+                                        <p>Site Supervisor</p>
                                     </div>
                                 </Link>
                                 <TeamSocialMedia />
@@ -182,7 +174,7 @@ const About = () => {
                                 <Link to="/SingleTeam">
                                     <div className="team-mem-details">
                                         <h2>Richard Smith</h2>
-                                        <p>ELECTRICIAN</p>
+                                        <p>Electrical Lead</p>
                                     </div>
                                 </Link>
                                 <TeamSocialMedia />
@@ -194,7 +186,7 @@ const About = () => {
                                 <Link to="/SingleTeam">
                                     <div className="team-mem-details">
                                         <h2>Max Walker</h2>
-                                        <p>Painter</p>
+                                        <p>Finishing Specialist</p>
                                     </div>
                                 </Link>
                                 <TeamSocialMedia />
@@ -206,7 +198,7 @@ const About = () => {
                                 <Link to="/SingleTeam">
                                     <div className="team-mem-details">
                                         <h2>Melena Marshall</h2>
-                                        <p>Cleaning</p>
+                                        <p>Project Coordinator</p>
                                     </div>
                                 </Link>
                                 <TeamSocialMedia />
@@ -218,12 +210,11 @@ const About = () => {
                             <Link to="/Contact" className="diamond-btn calendar-btn">
                                 <img src={calendarSvg} alt="calendar" />
                             </Link>
-                            <h3>Our Expert Will Be Available <span>Mon - Fri (9 Am - 6 Pm)</span> Book An Appointment For
-                                Services.</h3>
+                            <h3>Our expert will be available <span>Mon - Fri (9 Am - 6 Pm)</span> to discuss your project.</h3>
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
             {/* <!-- ====================================== Section Nine ===================================== --> */}
             <section className="curved-section">
                 <TopRated />
