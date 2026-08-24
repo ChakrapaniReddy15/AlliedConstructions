@@ -1781,6 +1781,33 @@ footer .head-phone-white-main>div:last-child {
     filter: brightness(0) saturate(100%) invert(38%) sepia(100%) saturate(1249%) hue-rotate(350deg) brightness(100%) contrast(90%);
 }
 /*-----------------------[ 19.Bottom top button CSS ]------------------------*/
+.whatsapp-floating-button {
+    position: fixed;
+    right: 30px;
+    bottom: 84px;
+    z-index: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #25d366;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 10px 24px rgba(37, 211, 102, 0.35);
+    transition: ease-out 200ms;
+}
+.whatsapp-floating-button img {
+    width: 26px;
+    height: 26px;
+    filter: brightness(0) invert(1);
+}
+.whatsapp-floating-button:hover {
+    color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 14px 30px rgba(37, 211, 102, 0.45);
+}
 button.bottom-top-button {
     position: fixed;
     right: 30px;

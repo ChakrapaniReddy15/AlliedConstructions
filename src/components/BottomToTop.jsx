@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import RightArrowSvg from '../assets/images/svg/right-arrow-svg.svg';
+import WhatsAppSvg from '../assets/images/svg/whatsapp.svg';
 
 const BottomToTop = ({ children }) => {
     const [isVisible, setIsVisible] = useState(false);
@@ -53,6 +54,15 @@ const BottomToTop = ({ children }) => {
     return (
         <div>
             {children}
+            <a
+                className="whatsapp-floating-button"
+                href="https://wa.me/919347111242"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open WhatsApp chat with Allied Constructions"
+            >
+                <img src={WhatsAppSvg} alt="" aria-hidden="true" />
+            </a>
             {isVisible && (
                 <button className="bottom-top-button" onClick={scrollToTop}>
                     <img src={RightArrowSvg} alt="arrow-up" />
