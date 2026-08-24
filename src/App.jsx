@@ -22,8 +22,8 @@ import PaintingService from './pages/PaintingService.jsx';
 import ElectricalService from './pages/ElectricalService.jsx';
 import SolarService from './pages/SolarService.jsx';
 import WeldingService from './pages/WeldingService.jsx';
-import Projects from './pages/Projects.jsx';
-import ProjectDetail from './pages/ProjectDetail.jsx';
+import Projects from './features/projects/Projects.jsx';
+import ProjectDetail from './features/projects/ProjectDetail.jsx';
 import Contact from './pages/Contact.jsx';
 
 

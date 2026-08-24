@@ -2,7 +2,7 @@ import React from 'react'
 import ArrowCross from '../assets/images/svg/arrow-cross.svg';
 import RightArrowSvg from '../assets/images/svg/right-arrow-svg.svg';
 import { Link } from 'react-router-dom';
-import { featuredProjects } from '../data/projectData.js';
+import { featuredProjects } from '../features/projects/projectData.js';
 
 const ProjectSection = () => {
     return (
