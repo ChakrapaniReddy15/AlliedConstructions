@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import TeamImg1 from '../assets/images/team-page/MoohammedaliAiijaaz.jpeg'
 import TeamImg2 from '../assets/images/team-page/MohammedAfrreen.jpeg'
-import TeamImg3 from '../assets/images/team-page/santhosh.jpeg'
+import TeamImg3 from '../assets/images/team-page/santosh.jpeg'
 import TeamImg4 from '../assets/images/team-page/Shoyab.jpeg'
 
 const directors = [
